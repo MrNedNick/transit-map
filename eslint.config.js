@@ -13,6 +13,9 @@ export default ts.config(
       globals: { ...globals.browser, ...globals.node },
     },
     rules: {
+      // TypeScript resolves identifiers itself, and `no-undef` cannot see
+      // type-only globals such as the GeoJSON namespace.
+      'no-undef': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },

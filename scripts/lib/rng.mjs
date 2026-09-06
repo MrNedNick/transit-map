@@ -18,6 +18,3 @@ export function range(rng, min, max) {
   return min + rng() * (max - min);
 }
 
-export function intRange(rng, min, max) {
-  return Math.floor(range(rng, min, max + 1));
-}

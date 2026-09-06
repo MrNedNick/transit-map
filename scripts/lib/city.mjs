@@ -1,4 +1,4 @@
-import { makeRng, pick, range, intRange } from './rng.mjs';
+import { makeRng, pick, range } from './rng.mjs';
 import { distance, metresPerDegree, smoothPath, sampleAlong, SpatialGrid } from './geo.mjs';
 import { DISTRICTS, LANDMARKS, TREES, STREET_KINDS } from './names.mjs';
 
@@ -30,13 +30,6 @@ function bboxOf(centre, widthKm, heightKm) {
   const halfLon = (widthKm * 1000) / 2 / mpd.lon;
   const halfLat = (heightKm * 1000) / 2 / mpd.lat;
   return [centre[0] - halfLon, centre[1] - halfLat, centre[0] + halfLon, centre[1] + halfLat];
-}
-
-/** 0 at the city centre, 1 at the far corner. */
-function radial(pt, centre, bbox) {
-  const nx = (pt[0] - centre[0]) / ((bbox[2] - bbox[0]) / 2);
-  const ny = (pt[1] - centre[1]) / ((bbox[3] - bbox[1]) / 2);
-  return Math.min(1, Math.hypot(nx, ny));
 }
 
 /** Closed ring around a centre with wobbling radius — lakes, parks, built-up area. */
