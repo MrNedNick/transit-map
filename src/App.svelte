@@ -3,29 +3,48 @@
   import Footer from './lib/components/Footer.svelte';
   import StopSearch from './lib/components/StopSearch.svelte';
   import SavedStops from './lib/components/SavedStops.svelte';
+  import Filters from './lib/components/Filters.svelte';
   import TransitMap from './lib/components/TransitMap.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
+  import { appState } from './lib/state/app.svelte';
   import { savedStops } from './lib/state/saved.svelte';
-  import { MODES, MODE_LABEL, type Mode, type Stop } from './lib/gtfs/types';
+  import { activeAt } from './lib/gtfs/active';
+  import { WEEKDAY_INDEX } from './lib/state/url';
+  import type { Stop } from './lib/gtfs/types';
 
   feed.load();
 
-  let selectedId = $state<string | null>(null);
-  let modes = $state<Mode[]>([...MODES]);
-  let view = $state({ lon: 12.5, lat: 49.0, zoom: 11.4 });
   let mapComponent = $state<ReturnType<typeof TransitMap> | null>(null);
 
-  const stops = $derived(feed.network?.stops ?? []);
-  const selected = $derived(selectedId ? (feed.network?.stopById.get(selectedId) ?? null) : null);
+  const current = $derived(appState.value);
+
+  const slice = $derived.by(() => {
+    const network = feed.network;
+    const timetable = feed.timetable;
+    if (!network || !timetable) return null;
+    return activeAt(network, timetable, {
+      hour: current.hour,
+      weekday: WEEKDAY_INDEX[current.day],
+      modes: current.modes,
+    });
+  });
+
+  // Until the timetable is in, everything is shown rather than nothing.
+  const visibleStops = $derived.by(() => {
+    const all = feed.network?.stops ?? [];
+    const active = slice;
+    if (!active) return all;
+    return all.filter((stop) => active.stopIds.has(stop.id));
+  });
+
+  const selected = $derived(
+    current.stopId ? (feed.network?.stopById.get(current.stopId) ?? null) : null,
+  );
 
   function pick(stop: Stop) {
-    selectedId = stop.id;
+    appState.update({ stopId: stop.id });
     mapComponent?.flyToStop(stop);
-  }
-
-  function toggleMode(mode: Mode) {
-    modes = modes.includes(mode) ? modes.filter((m) => m !== mode) : [...modes, mode];
   }
 </script>
 
@@ -50,26 +69,19 @@
           <StopSearch stops={feed.network.stops} onselect={pick} />
         {/if}
 
-        <fieldset class="modes">
-          <legend>Modes</legend>
-          {#each MODES as mode (mode)}
-            <label class="mode" data-mode={mode}>
-              <input
-                type="checkbox"
-                checked={modes.includes(mode)}
-                onchange={() => toggleMode(mode)}
-              />
-              <span>{MODE_LABEL[mode]}</span>
-            </label>
-          {/each}
-        </fieldset>
+        <Filters
+          modes={current.modes}
+          hour={current.hour}
+          day={current.day}
+          onchange={(patch) => appState.update(patch)}
+        />
 
         {#if selected}
           {@const stop = selected}
           <div class="stop-card">
             <h2>{stop.name}</h2>
             <p class="meta">{stop.district} · {stop.routeIds.length} routes</p>
-            <button type="button" class="save" onclick={() => savedStops.toggle(stop)}>
+            <button type="button" onclick={() => savedStops.toggle(stop)}>
               {savedStops.has(stop.id) ? 'Saved' : 'Save stop'}
             </button>
           </div>
@@ -91,20 +103,27 @@
         {:else}
           <TransitMap
             bind:this={mapComponent}
-            stops={feed.network.stops}
-            {modes}
-            {selectedId}
-            {view}
-            onselect={(id) => (selectedId = id)}
-            onviewchange={(next) => (view = next)}
+            stops={visibleStops}
+            modes={current.modes}
+            activeRouteIds={slice?.routeIds ?? null}
+            selectedId={current.stopId}
+            view={{ lon: current.lon, lat: current.lat, zoom: current.zoom }}
+            onselect={(id) => appState.update({ stopId: id })}
+            onviewchange={(camera) => appState.setCamera(camera)}
           />
         {/if}
       </div>
     </div>
 
     <dl class="counts">
-      <div><dt>Stops</dt><dd>{stops.length.toLocaleString('en')}</dd></div>
-      <div><dt>Routes</dt><dd>{feed.network?.routes.length ?? 0}</dd></div>
+      <div>
+        <dt>Stops in service</dt>
+        <dd>{visibleStops.length.toLocaleString('en')}</dd>
+      </div>
+      <div>
+        <dt>Routes running</dt>
+        <dd>{slice ? slice.routeIds.length : (feed.network?.routes.length ?? 0)}</dd>
+      </div>
       <div>
         <dt>Stop times</dt>
         <dd>{feed.timetable ? feed.timetable.stopTimeCount.toLocaleString('en') : '…'}</dd>
@@ -158,15 +177,14 @@
 
   .shell {
     display: grid;
-    grid-template-columns: 300px minmax(0, 1fr);
-    gap: 0;
+    grid-template-columns: 310px minmax(0, 1fr);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     overflow: hidden;
     background: var(--surface);
     box-shadow: var(--shadow-sm);
-    height: min(72vh, 660px);
-    min-height: 460px;
+    height: min(74vh, 680px);
+    min-height: 470px;
   }
 
   .side {
@@ -192,59 +210,6 @@
     gap: 12px;
     justify-items: center;
     color: var(--text-muted);
-  }
-
-  .modes {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-
-  legend {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--text-faint);
-    font-weight: 600;
-    padding: 0;
-    margin-bottom: 8px;
-  }
-
-  .mode {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 10px 5px 7px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    font-size: 13px;
-    cursor: pointer;
-    background: var(--surface);
-  }
-
-  .mode:hover {
-    border-color: var(--border-strong);
-  }
-
-  .mode input {
-    accent-color: var(--accent);
-    margin: 0;
-  }
-
-  .mode[data-mode='metro'] span {
-    border-bottom: 2px solid var(--mode-metro);
-  }
-  .mode[data-mode='tram'] span {
-    border-bottom: 2px solid var(--mode-tram);
-  }
-  .mode[data-mode='rail'] span {
-    border-bottom: 2px solid var(--mode-rail);
-  }
-  .mode[data-mode='bus'] span {
-    border-bottom: 2px solid var(--mode-bus);
   }
 
   .stop-card {
@@ -317,7 +282,7 @@
 
     .canvas {
       height: 62vh;
-      min-height: 380px;
+      min-height: 400px;
     }
   }
 </style>

@@ -196,6 +196,23 @@
     source?.setData(isochrone ?? { type: 'FeatureCollection', features: [] });
   });
 
+  /**
+   * The camera can also change from the outside — the Back button restoring an
+   * earlier view, or a shared link being opened. Moves the map originated
+   * itself round-trip to the same numbers and are ignored here.
+   */
+  $effect(() => {
+    const target = { lon: view.lon, lat: view.lat, zoom: view.zoom };
+    if (!map || !styleReady) return;
+    const centre = map.getCenter();
+    const settled =
+      Math.abs(centre.lng - target.lon) < 1e-4 &&
+      Math.abs(centre.lat - target.lat) < 1e-4 &&
+      Math.abs(map.getZoom() - target.zoom) < 0.02;
+    if (settled) return;
+    map.easeTo({ center: [target.lon, target.lat], zoom: target.zoom, duration: 420 });
+  });
+
   export function flyToStop(stop: Stop) {
     map?.easeTo({ center: [stop.lon, stop.lat], zoom: Math.max(map.getZoom(), 15), duration: 600 });
   }
