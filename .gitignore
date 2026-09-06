@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+.vite
+.svelte-kit
+
+# Local tooling config — kept on disk, not in the repository.
+.claude/
+CLAUDE.md

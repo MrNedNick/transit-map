@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Transit Map — stops, routes and 15-minute isochrones</title>
+    <meta
+      name="description"
+      content="A city transit map: thousands of clustered stops, filters by mode and time of day, stop timetables and reachability isochrones — all from a GTFS feed served straight from static files."
+    />
+    <script>
+      // Applied before first paint so the page never flashes the wrong theme.
+      try {
+        const saved = localStorage.getItem('transit-map:theme');
+        const theme =
+          saved === 'light' || saved === 'dark'
+            ? saved
+            : matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light';
+        document.documentElement.dataset.theme = theme;
+      } catch {
+        document.documentElement.dataset.theme = 'light';
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
