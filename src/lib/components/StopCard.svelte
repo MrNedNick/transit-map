@@ -54,9 +54,13 @@
     <button type="button" class="save" class:on={saved} onclick={() => savedStops.toggle(stop)}>
       {saved ? 'Saved' : 'Save stop'}
     </button>
-    <label class="budget">
+    <label class="budget" for="travel-budget">
       <span>Reachable in</span>
-      <select value={minutes} onchange={(e) => onminutes(Number(e.currentTarget.value))}>
+      <select
+        id="travel-budget"
+        value={minutes}
+        onchange={(e) => onminutes(Number(e.currentTarget.value))}
+      >
         {#each [10, 15, 20, 30, 45] as value (value)}
           <option {value}>{value} min</option>
         {/each}
