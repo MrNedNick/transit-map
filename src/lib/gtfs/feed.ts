@@ -226,14 +226,19 @@ export interface DepartureQuery {
   weekday: number;
   limit?: number;
   modes?: Set<Mode>;
+  /** How far ahead a departure board is worth reading. */
+  window?: number;
 }
+
+const DAY_SECONDS = 86400;
 
 export function departuresAt(
   network: Network,
   timetable: Timetable,
   query: DepartureQuery,
 ): Departure[] {
-  const { stopId, from, weekday, limit = 8 } = query;
+  const { stopId, from, weekday, limit = 8, window = 3 * 3600 } = query;
+  const until = from + window;
   const found: Departure[] = [];
 
   for (const visit of timetable.visits.get(stopId) ?? []) {
@@ -249,21 +254,34 @@ export function departuresAt(
     if (query.modes && !query.modes.has(route.mode)) continue;
 
     const offset = pattern.offsets[index];
-    const times: Array<{ time: number; approximate: boolean }> = [];
+    const times: Array<{ time: number; approximate: boolean; headway: number | null }> = [];
 
+    /**
+     * Night service is written as 24:00-29:00, so the same band has to be
+     * tried where it is printed and one day earlier — otherwise the small
+     * hours of the service day come back empty.
+     */
     for (const band of pattern.bands) {
-      let time = nextInBand(band, offset, from);
-      for (let n = 0; n < limit && time !== null; n++) {
-        times.push({ time, approximate: true });
-        time = nextInBand(band, offset, time + 1);
+      for (const shift of [0, -DAY_SECONDS]) {
+        const shifted = { start: band.start + shift, end: band.end + shift, headway: band.headway };
+        if (shifted.end + offset < from) continue;
+        let time = nextInBand(shifted, offset, from);
+        for (let n = 0; n < limit && time !== null && time <= until; n++) {
+          times.push({ time, approximate: true, headway: band.headway });
+          time = nextInBand(shifted, offset, time + 1);
+        }
       }
     }
     for (const departure of pattern.fixedDepartures) {
-      const time = departure + offset;
-      if (time >= from) times.push({ time, approximate: false });
+      for (const shift of [0, -DAY_SECONDS]) {
+        const time = departure + offset + shift;
+        if (time >= from && time <= until) {
+          times.push({ time, approximate: false, headway: null });
+        }
+      }
     }
 
-    for (const { time, approximate } of times) {
+    for (const { time, approximate, headway } of times) {
       found.push({
         time,
         routeId: route.id,
@@ -273,6 +291,7 @@ export function departuresAt(
         headsign: pattern.headsign,
         tripId: pattern.tripId,
         approximate,
+        headway,
       });
     }
   }

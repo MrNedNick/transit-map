@@ -79,4 +79,6 @@ export interface Departure {
   tripId: string;
   /** True when the time comes from a headway band rather than a printed time. */
   approximate: boolean;
+  /** Seconds between departures, when the feed describes service that way. */
+  headway: number | null;
 }

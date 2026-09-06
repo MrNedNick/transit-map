@@ -30,6 +30,13 @@ export const DAY_LABEL: Record<DayType, string> = {
   su: 'Sunday',
 };
 
+/** The same three days as they read inside a sentence. */
+export const DAY_PHRASE: Record<DayType, string> = {
+  wd: 'a weekday',
+  sa: 'a Saturday',
+  su: 'a Sunday',
+};
+
 /** GTFS calendar columns start on Monday; `Date#getDay` starts on Sunday. */
 export const WEEKDAY_INDEX: Record<DayType, number> = { wd: 2, sa: 6, su: 0 };
 

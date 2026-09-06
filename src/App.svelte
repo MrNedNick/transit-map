@@ -4,13 +4,15 @@
   import StopSearch from './lib/components/StopSearch.svelte';
   import SavedStops from './lib/components/SavedStops.svelte';
   import Filters from './lib/components/Filters.svelte';
+  import StopCard from './lib/components/StopCard.svelte';
   import TransitMap from './lib/components/TransitMap.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
   import { appState } from './lib/state/app.svelte';
-  import { savedStops } from './lib/state/saved.svelte';
+
   import { activeAt } from './lib/gtfs/active';
-  import { WEEKDAY_INDEX } from './lib/state/url';
+  import { stopDetails } from './lib/gtfs/stop-details';
+  import { DEFAULT_STATE, WEEKDAY_INDEX } from './lib/state/url';
   import type { Stop } from './lib/gtfs/types';
 
   feed.load();
@@ -41,6 +43,35 @@
   const selected = $derived(
     current.stopId ? (feed.network?.stopById.get(current.stopId) ?? null) : null,
   );
+
+  const details = $derived.by(() => {
+    const network = feed.network;
+    const timetable = feed.timetable;
+    const stop = selected;
+    if (!network || !timetable || !stop) return null;
+    return stopDetails(network, timetable, stop, {
+      hour: current.hour,
+      weekday: WEEKDAY_INDEX[current.day],
+      activeRouteIds: new Set(slice?.routeIds ?? []),
+    });
+  });
+
+  /**
+   * A link that names a stop but no camera — someone typed or trimmed it —
+   * should still land on that stop rather than on the city centre.
+   */
+  let centredOnDeepLink = false;
+  $effect(() => {
+    if (centredOnDeepLink || !feed.network || !current.stopId) return;
+    const atDefault =
+      current.lon === DEFAULT_STATE.lon &&
+      current.lat === DEFAULT_STATE.lat &&
+      current.zoom === DEFAULT_STATE.zoom;
+    centredOnDeepLink = true;
+    if (!atDefault) return;
+    const stop = feed.network.stopById.get(current.stopId);
+    if (stop) mapComponent?.flyToStop(stop);
+  });
 
   function pick(stop: Stop) {
     appState.update({ stopId: stop.id });
@@ -76,15 +107,15 @@
           onchange={(patch) => appState.update(patch)}
         />
 
-        {#if selected}
-          {@const stop = selected}
-          <div class="stop-card">
-            <h2>{stop.name}</h2>
-            <p class="meta">{stop.district} · {stop.routeIds.length} routes</p>
-            <button type="button" onclick={() => savedStops.toggle(stop)}>
-              {savedStops.has(stop.id) ? 'Saved' : 'Save stop'}
-            </button>
-          </div>
+        {#if details}
+          <StopCard
+            {details}
+            hour={current.hour}
+            day={current.day}
+            onclose={() => appState.update({ stopId: null })}
+          />
+        {:else if selected}
+          <p class="pending">Loading the timetable for {selected.name}…</p>
         {/if}
 
         {#if feed.network}
@@ -212,21 +243,9 @@
     color: var(--text-muted);
   }
 
-  .stop-card {
-    padding: 12px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--surface-2);
-  }
-
-  .stop-card h2 {
-    font-size: 1rem;
-  }
-
-  .meta {
-    color: var(--text-faint);
-    font-size: 12.5px;
-    margin-block: 2px 10px;
+  .pending {
+    font-size: 13px;
+    color: var(--text-muted);
   }
 
   button {
