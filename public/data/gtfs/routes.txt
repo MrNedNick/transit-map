@@ -1,0 +1,214 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+R001,OST,M1,Larch Lane – Riverside Library,1,d2262c,FFFFFF
+R002,OST,M2,Junction Arcade – Ivy Walk,1,1d4ed8,FFFFFF
+R003,OST,M3,Juniper Road – Junction Row,1,0f8f4a,FFFFFF
+R004,OST,M4,Pine Avenue – Riverside Barracks,1,e08a13,FFFFFF
+R005,OST,S1,Larch Walk – Hillcrest Park,2,7c3aed,FFFFFF
+R006,OST,S2,Greenfield Museum – Hazel Way,2,2563eb,FFFFFF
+R007,OST,S3,Hillcrest Museum – Cedar Walk,2,059669,FFFFFF
+R008,OST,S4,Holly Close – Larch Road,2,db2777,FFFFFF
+R009,OST,1,Vinegrove Locks – Steelyard Yard,0,b45309,FFFFFF
+R010,OST,2,Birch Terrace – Brickworks Works,0,8a5a2b,FFFFFF
+R011,OST,3,Cedar Road – Northgate Tower,0,a3123f,FFFFFF
+R012,OST,4,Southgate Steps – Marsh End Works,0,6d28d9,FFFFFF
+R013,OST,5,Vinegrove Gate – Kestrel Park Rise,0,0e7490,FFFFFF
+R014,OST,6,Willow Lane – Lakeside Priory,0,4d7c0f,FFFFFF
+R015,OST,7,Walnut Street – Willow Crescent,0,be185d,FFFFFF
+R016,OST,8,Willow Way – Holly Street,0,9a3412,FFFFFF
+R017,OST,9,Vinegrove Museum – Kestrel Park Market,0,0369a1,FFFFFF
+R018,OST,100,Lakeside Arcade – Fairmount Court,3,0f766e,FFFFFF
+R019,OST,101,Greenfield Exchange – Birch Walk,3,0f766e,FFFFFF
+R020,OST,102,Southgate Court – Harborside Crossing,3,0f766e,FFFFFF
+R021,OST,103,Riverside Park – Fairmount Yard,3,0f766e,FFFFFF
+R022,OST,104,Oldtown Locks – Westbridge Stadium,3,0f766e,FFFFFF
+R023,OST,105,Lakeside Locks – Pine Road,3,0f766e,FFFFFF
+R024,OST,106,Elmwood Green – Beech Crescent,3,0f766e,FFFFFF
+R025,OST,107,Poplar Walk – Beech Walk,3,0f766e,FFFFFF
+R026,OST,108,Lakeside Exchange – Junction Locks,3,0f766e,FFFFFF
+R027,OST,109,Hillcrest Library – Steelyard Museum,3,0f766e,FFFFFF
+R028,OST,110,Brickworks Locks – Lakeside Wharf,3,0f766e,FFFFFF
+R029,OST,111,Harborside Chapel – Linden Terrace,3,0f766e,FFFFFF
+R030,OST,112,Hillcrest Row – Harborside Junction,3,0f766e,FFFFFF
+R031,OST,113,Hillcrest Hospital – Lakeside Cemetery,3,0f766e,FFFFFF
+R032,OST,114,Brickworks Gate – Hillcrest Baths 2,3,0f766e,FFFFFF
+R033,OST,115,Fairmount Hollow – Foundry Works,3,0f766e,FFFFFF
+R034,OST,116,Vinegrove Chapel – Steelyard Stadium,3,0f766e,FFFFFF
+R035,OST,117,Harborside Tower – Greenfield Circus,3,0f766e,FFFFFF
+R036,OST,118,Westbridge Museum 2 – Harborside Hospital,3,0f766e,FFFFFF
+R037,OST,119,Westbridge Terminal 4 – Brickworks Junction,3,0f766e,FFFFFF
+R038,OST,120,Riverside Stadium – Kestrel Park Tower,3,0f766e,FFFFFF
+R039,OST,121,Junction Park – Riverside Court,3,0f766e,FFFFFF
+R040,OST,122,Greenfield Cemetery – Harborside Works,3,0f766e,FFFFFF
+R041,OST,123,Westbridge Junction 2 – Foundry Baths 2,3,0f766e,FFFFFF
+R042,OST,124,Foundry Court 3 – Fairmount School,3,0f766e,FFFFFF
+R043,OST,125,Fairmount Terminal – Harborside Museum,3,0f766e,FFFFFF
+R044,OST,126,Steelyard Exchange – Brickworks Yard 2,3,0f766e,FFFFFF
+R045,OST,127,Marsh End Crossing 3 – Southgate Steps 2,3,0f766e,FFFFFF
+R046,OST,128,Harborside Museum 2 – Greenfield Works,3,0f766e,FFFFFF
+R047,OST,129,Fairmount Crossing 2 – Oldtown Museum 2,3,0f766e,FFFFFF
+R048,OST,130,Southgate Museum 2 – Marsh End Depot 4,3,0f766e,FFFFFF
+R049,OST,131,Foundry Stadium 2 – Harborside Steps 2,3,0f766e,FFFFFF
+R050,OST,132,Steelyard Tower – Marsh End Library 2,3,0f766e,FFFFFF
+R051,OST,133,Foundry Barracks – Kestrel Park Granary,3,0f766e,FFFFFF
+R052,OST,134,Vinegrove Cemetery 2 – Foundry Halt,3,0f766e,FFFFFF
+R053,OST,135,Steelyard Park – Junction Quay,3,0f766e,FFFFFF
+R054,OST,136,Northgate Hospital 5 – Junction Hollow,3,0f766e,FFFFFF
+R055,OST,137,Junction Fountain – Westbridge Rise 5,3,0f766e,FFFFFF
+R056,OST,138,Kestrel Park Terminal – Brickworks Hospital 3,3,0f766e,FFFFFF
+R057,OST,139,Hillcrest Tower 2 – Marsh End Crossing 5,3,0f766e,FFFFFF
+R058,OST,140,Riverside Bridge – Brickworks Court 2,3,0f766e,FFFFFF
+R059,OST,141,Junction Junction – Kestrel Park Depot 2,3,0f766e,FFFFFF
+R060,OST,142,Westbridge Granary 2 – Brickworks Crossing 2,3,0f766e,FFFFFF
+R061,OST,143,Lakeside Park 2 – Foundry Halt,3,0f766e,FFFFFF
+R062,OST,144,Alder Lane – Foundry Hollow 5,3,0f766e,FFFFFF
+R063,OST,145,Lakeside Hospital 2 – Foundry Rise 2,3,0f766e,FFFFFF
+R064,OST,146,Junction Hospital 2 – Southgate Priory 3,3,0f766e,FFFFFF
+R065,OST,147,Steelyard Museum 2 – Brickworks Terminal 2,3,0f766e,FFFFFF
+R066,OST,148,Fairmount Halt 3 – Hillcrest Court 3,3,0f766e,FFFFFF
+R067,OST,149,Oldtown Granary 2 – Junction Library 2,3,0f766e,FFFFFF
+R068,OST,150,Hillcrest Mill 2 – Marsh End Depot 2,3,0f766e,FFFFFF
+R069,OST,151,Hillcrest Terminal 3 – Brickworks School 5,3,0f766e,FFFFFF
+R070,OST,152,Riverside Market – Kestrel Park Works 2,3,0f766e,FFFFFF
+R071,OST,153,Junction Priory 2 – Foundry Junction 4,3,0f766e,FFFFFF
+R072,OST,154,Oldtown Park 3 – Foundry Depot 3,3,0f766e,FFFFFF
+R073,OST,155,Hillcrest Fountain 4 – Brickworks Green 4,3,0f766e,FFFFFF
+R074,OST,156,Westbridge Chapel 2 – Hazel Avenue,3,0f766e,FFFFFF
+R075,OST,157,Harborside Row 3 – Vinegrove Priory 2,3,0f766e,FFFFFF
+R076,OST,158,Elmwood Works 2 – Foundry Works 2,3,0f766e,FFFFFF
+R077,OST,159,Steelyard Gate 3 – Hillcrest Junction 5,3,0f766e,FFFFFF
+R078,OST,160,Northgate Museum 3 – Hillcrest Baths 3,3,0f766e,FFFFFF
+R079,OST,161,Northgate Chapel 4 – Riverside Rise,3,0f766e,FFFFFF
+R080,OST,162,Westbridge Stadium – Elmwood Row 5,3,0f766e,FFFFFF
+R081,OST,163,Marsh End Barracks 4 – Walnut Avenue,3,0f766e,FFFFFF
+R082,OST,164,Marsh End Priory 4 – Steelyard Bridge 2,3,0f766e,FFFFFF
+R083,OST,165,Greenfield Hospital – Hillcrest Works 3,3,0f766e,FFFFFF
+R084,OST,166,Foundry Cemetery 4 – Northgate Court 2,3,0f766e,FFFFFF
+R085,OST,167,Fairmount Chapel 2 – Northgate Chapel 5,3,0f766e,FFFFFF
+R086,OST,168,Poplar Crescent – Harborside Tower 2,3,0f766e,FFFFFF
+R087,OST,169,Southgate Museum 4 – Junction Wharf 2,3,0f766e,FFFFFF
+R088,OST,170,Kestrel Park Depot – Vinegrove Chapel 4,3,0f766e,FFFFFF
+R089,OST,171,Kestrel Park School 4 – Brickworks Court 2,3,0f766e,FFFFFF
+R090,OST,172,Brickworks Museum 3 – Riverside Steps,3,0f766e,FFFFFF
+R091,OST,173,Foundry Arcade 4 – Junction Market 5,3,0f766e,FFFFFF
+R092,OST,174,Fairmount Chapel 3 – Westbridge Quay 5,3,0f766e,FFFFFF
+R093,OST,175,Oldtown Halt 3 – Riverside Cemetery,3,0f766e,FFFFFF
+R094,OST,176,Kestrel Park Terminal – Pine Crescent,3,0f766e,FFFFFF
+R095,OST,177,Steelyard Quay 2 – Hillcrest Green 3,3,0f766e,FFFFFF
+R096,OST,178,Foundry Green – Kestrel Park Yard,3,0f766e,FFFFFF
+R097,OST,179,Vinegrove Steps 2 – Marsh End Wharf,3,0f766e,FFFFFF
+R098,OST,180,Lakeside Circus 2 – Junction Hospital 4,3,0f766e,FFFFFF
+R099,OST,181,Foundry Halt 4 – Lakeside Circus 3,3,0f766e,FFFFFF
+R100,OST,182,Kestrel Park School 5 – Vinegrove Fields 4,3,0f766e,FFFFFF
+R101,OST,183,Northgate Bridge 4 – Elmwood Quay 3,3,0f766e,FFFFFF
+R102,OST,184,Lakeside Hollow 2 – Junction Gate 5,3,0f766e,FFFFFF
+R103,OST,185,Elm Avenue – Northgate Court 4,3,0f766e,FFFFFF
+R104,OST,186,Hillcrest Circus – Junction Chapel 2,3,0f766e,FFFFFF
+R105,OST,187,Hillcrest Baths 5 – Kestrel Park Steps 3,3,0f766e,FFFFFF
+R106,OST,188,Kestrel Park Locks 2 – Foundry Fountain 3,3,0f766e,FFFFFF
+R107,OST,189,Hillcrest Rise 7 – Greenfield Cemetery 3,3,0f766e,FFFFFF
+R108,OST,190,Harborside Museum 3 – Lakeside Fountain 2,3,0f766e,FFFFFF
+R109,OST,191,Westbridge Fields 4 – Riverside Exchange 2,3,0f766e,FFFFFF
+R110,OST,192,Hillcrest Stadium 2 – Brickworks Halt 4,3,0f766e,FFFFFF
+R111,OST,193,Foundry Crossing 4 – Oldtown Tower 5,3,0f766e,FFFFFF
+R112,OST,194,Fairmount Terminal 2 – Harborside Park,3,0f766e,FFFFFF
+R113,OST,195,Harborside Depot 4 – Southgate Row 2,3,0f766e,FFFFFF
+R114,OST,196,Foundry Steps 7 – Junction Chapel 3,3,0f766e,FFFFFF
+R115,OST,197,Brickworks Museum 7 – Westbridge Court 5,3,0f766e,FFFFFF
+R116,OST,198,Harborside Gate 2 – Foundry Bridge 7,3,0f766e,FFFFFF
+R117,OST,199,Greenfield Green 2 – Vinegrove Market 5,3,0f766e,FFFFFF
+R118,OST,200,Marsh End Quay 3 – Southgate Fountain 2,3,0f766e,FFFFFF
+R119,OST,201,Marsh End Bridge 6 – Kestrel Park Market 5,3,0f766e,FFFFFF
+R120,OST,202,Harborside Arcade 4 – Hillcrest Granary,3,0f766e,FFFFFF
+R121,OST,203,Southgate Cemetery 2 – Harborside Yard 4,3,0f766e,FFFFFF
+R122,OST,204,Lakeside Library 3 – Vinegrove Fountain,3,0f766e,FFFFFF
+R123,OST,205,Brickworks School 7 – Marsh End Steps 2,3,0f766e,FFFFFF
+R124,OST,206,Westbridge Common 6 – Riverside Green 3,3,0f766e,FFFFFF
+R125,OST,207,Greenfield Park 2 – Vinegrove Halt 5,3,0f766e,FFFFFF
+R126,OST,208,Northgate Circus 5 – Brickworks Stadium 4,3,0f766e,FFFFFF
+R127,OST,209,Fairmount Barracks 2 – Harborside Yard 5,3,0f766e,FFFFFF
+R128,OST,210,Kestrel Park Junction 3 – Vinegrove Exchange 6,3,0f766e,FFFFFF
+R129,OST,211,Northgate Gate 4 – Marsh End Quay 6,3,0f766e,FFFFFF
+R130,OST,212,Lakeside Crossing 4 – Harborside Green,3,0f766e,FFFFFF
+R131,OST,213,Greenfield Park 2 – Hillcrest Junction 7,3,0f766e,FFFFFF
+R132,OST,214,Brickworks Baths 9 – Steelyard Hollow 2,3,0f766e,FFFFFF
+R133,OST,215,Lakeside Cemetery – Harborside Halt 4,3,0f766e,FFFFFF
+R134,OST,216,Foundry Park – Marsh End Gate 6,3,0f766e,FFFFFF
+R135,OST,217,Kestrel Park Wharf 5 – Brickworks Fields 3,3,0f766e,FFFFFF
+R136,OST,218,Greenfield Fountain 3 – Southgate Hollow 3,3,0f766e,FFFFFF
+R137,OST,219,Lakeside Halt 4 – Vinegrove Cemetery 6,3,0f766e,FFFFFF
+R138,OST,220,Harborside Bridge 3 – Lakeside Locks 4,3,0f766e,FFFFFF
+R139,OST,221,Riverside Hollow 2 – Marsh End Green 5,3,0f766e,FFFFFF
+R140,OST,222,Greenfield Green 3 – Fairmount Chapel,3,0f766e,FFFFFF
+R141,OST,223,Fairmount Library 3 – Foundry Halt,3,0f766e,FFFFFF
+R142,OST,224,Steelyard Cemetery 3 – Hillcrest Crossing 2,3,0f766e,FFFFFF
+R143,OST,225,Beech Street – Northgate Steps 2,3,0f766e,FFFFFF
+R144,OST,226,Marsh End Chapel 7 – Foundry Arcade 6,3,0f766e,FFFFFF
+R145,OST,227,Vinegrove Park 6 – Lakeside Crossing 7,3,0f766e,FFFFFF
+R146,OST,228,Fairmount Chapel 5 – Harborside Cemetery 2,3,0f766e,FFFFFF
+R147,OST,229,Lakeside Terminal 7 – Marsh End Bridge 7,3,0f766e,FFFFFF
+R148,OST,230,Cedar Lane – Southgate Common 2,3,0f766e,FFFFFF
+R149,OST,231,Vinegrove Yard 7 – Northgate Junction 7,3,0f766e,FFFFFF
+R150,OST,232,Lakeside Crossing 8 – Junction Depot 4,3,0f766e,FFFFFF
+R151,OST,233,Vinegrove Hollow 6 – Junction Hollow 3,3,0f766e,FFFFFF
+R152,OST,234,Harborside Depot 7 – Lakeside Fields 3,3,0f766e,FFFFFF
+R153,OST,235,Vinegrove Works 3 – Kestrel Park Cemetery,3,0f766e,FFFFFF
+R154,OST,236,Greenfield Chapel 3 – Riverside Park 2,3,0f766e,FFFFFF
+R155,OST,237,Kestrel Park Market 5 – Marsh End Steps,3,0f766e,FFFFFF
+R156,OST,238,Marsh End School 4 – Foundry Quay 8,3,0f766e,FFFFFF
+R157,OST,239,Southgate Mill 3 – Junction Yard 2,3,0f766e,FFFFFF
+R158,OST,240,Vinegrove Quay 5 – Greenfield Granary 3,3,0f766e,FFFFFF
+R159,OST,241,Elmwood Museum 3 – Foundry Gate 7,3,0f766e,FFFFFF
+R160,OST,242,Marsh End Crossing 5 – Kestrel Park Hospital 7,3,0f766e,FFFFFF
+R161,OST,243,Vinegrove Terminal 6 – Southgate Crossing 3,3,0f766e,FFFFFF
+R162,OST,244,Harborside Common 7 – Riverside Depot 2,3,0f766e,FFFFFF
+R163,OST,245,Lakeside Depot 4 – Harborside Fields 4,3,0f766e,FFFFFF
+R164,OST,246,Elmwood Baths 2 – Brickworks Bridge 4,3,0f766e,FFFFFF
+R165,OST,247,Junction Stadium 3 – Southgate Stadium 5,3,0f766e,FFFFFF
+R166,OST,248,Brickworks Circus 3 – Lakeside Crossing 3,3,0f766e,FFFFFF
+R167,OST,249,Brickworks Works 5 – Linden Street,3,0f766e,FFFFFF
+R168,OST,250,Hillcrest Hollow 5 – Junction Market 7,3,0f766e,FFFFFF
+R169,OST,251,Kestrel Park Stadium 7 – Foundry Bridge 9,3,0f766e,FFFFFF
+R170,OST,252,Junction Row 3 – Oldtown Granary 2,3,0f766e,FFFFFF
+R171,OST,253,Lakeside Green 5 – Vinegrove Park 10,3,0f766e,FFFFFF
+R172,OST,254,Junction Exchange 6 – Southgate Park 2,3,0f766e,FFFFFF
+R173,OST,255,Greenfield Priory 4 – Hillcrest Mill 9,3,0f766e,FFFFFF
+R174,OST,256,Lakeside Exchange 3 – Junction Junction 6,3,0f766e,FFFFFF
+R175,OST,257,Southgate Hospital 4 – Brickworks Green 6,3,0f766e,FFFFFF
+R176,OST,258,Northgate Common 3 – Hillcrest Rise 10,3,0f766e,FFFFFF
+R177,OST,259,Harborside Depot 8 – Kestrel Park Hollow 8,3,0f766e,FFFFFF
+R178,OST,260,Junction Quay 2 – Westbridge Hollow 2,3,0f766e,FFFFFF
+R179,OST,261,Vinegrove Junction 6 – Northgate Fountain 6,3,0f766e,FFFFFF
+R180,OST,262,Kestrel Park Circus 5 – Junction Works 3,3,0f766e,FFFFFF
+R181,OST,263,Southgate Terminal 6 – Junction Common,3,0f766e,FFFFFF
+R182,OST,264,Brickworks Junction 7 – Harborside Hospital 4,3,0f766e,FFFFFF
+R183,OST,265,Harborside Rise 5 – Kestrel Park Hollow 4,3,0f766e,FFFFFF
+R184,OST,266,Westbridge Granary 4 – Riverside Chapel 2,3,0f766e,FFFFFF
+R185,OST,267,Southgate Crossing 4 – Vinegrove Exchange 10,3,0f766e,FFFFFF
+R186,OST,268,Hillcrest Halt 4 – Riverside Depot 3,3,0f766e,FFFFFF
+R187,OST,269,Walnut Street – Fairmount Hollow 2,3,0f766e,FFFFFF
+R188,OST,270,Lakeside Stadium 7 – Vinegrove Observatory 5,3,0f766e,FFFFFF
+R189,OST,271,Marsh End Steps 5 – Kestrel Park Museum,3,0f766e,FFFFFF
+R190,OST,272,Southgate Stadium 7 – Steelyard Terminal 2,3,0f766e,FFFFFF
+R191,OST,273,Harborside Halt 5 – Fairmount Chapel 6,3,0f766e,FFFFFF
+R192,OST,274,Riverside Green 5 – Southgate Stadium 3,3,0f766e,FFFFFF
+R193,OST,275,Westbridge Tower 4 – Harborside Crossing 5,3,0f766e,FFFFFF
+R194,OST,276,Harborside Wharf 5 – Fairmount Museum 5,3,0f766e,FFFFFF
+R195,OST,277,Harborside Barracks 2 – Riverside Depot 5,3,0f766e,FFFFFF
+R196,OST,278,Junction Chapel 4 – Greenfield Hospital 3,3,0f766e,FFFFFF
+R197,OST,279,Junction Steps 4 – Northgate Library 6,3,0f766e,FFFFFF
+R198,OST,280,Lakeside Junction 5 – Junction Terminal 3,3,0f766e,FFFFFF
+R199,OST,281,Hillcrest Junction 2 – Lakeside Stadium 8,3,0f766e,FFFFFF
+R200,OST,282,Harborside Bridge 6 – Riverside Court 3,3,0f766e,FFFFFF
+R201,OST,283,Harborside Halt 6 – Lakeside Junction 6,3,0f766e,FFFFFF
+R202,OST,284,Junction Gate 7 – Hillcrest Common 9,3,0f766e,FFFFFF
+R203,OST,285,Marsh End Barracks 2 – Westbridge Baths 12,3,0f766e,FFFFFF
+R204,OST,N1,Fairmount Green 4 – Maple Road,3,0f766e,FFFFFF
+R205,OST,N2,Harborside Market 4 – Hillcrest Hospital 2,3,0f766e,FFFFFF
+R206,OST,N3,Marsh End Halt 3 – Kestrel Park Market 5,3,0f766e,FFFFFF
+R207,OST,N4,Harborside Barracks 8 – Riverside Barracks 3,3,0f766e,FFFFFF
+R208,OST,N5,Vinegrove Halt 3 – Kestrel Park Court 5,3,0f766e,FFFFFF
+R209,OST,N6,Northgate Market 3 – Brickworks Fields 6,3,0f766e,FFFFFF
+R210,OST,N7,Westbridge Works 2 – Steelyard Crossing 4,3,0f766e,FFFFFF
+R211,OST,N8,Riverside Park 5 – Fairmount Exchange 6,3,0f766e,FFFFFF
+R212,OST,N9,Junction Works – Southgate Chapel,3,0f766e,FFFFFF
+R213,OST,N10,Southgate Court 3 – Riverside Green 2,3,0f766e,FFFFFF

@@ -1,0 +1,1463 @@
+route_id,service_id,trip_id,trip_headsign,direction_id
+R001,WD,R001-0-WD,Riverside Library,0
+R001,WD,R001-1-WD,Larch Lane,1
+R001,SA,R001-0-SA,Riverside Library,0
+R001,SA,R001-1-SA,Larch Lane,1
+R001,SU,R001-0-SU,Riverside Library,0
+R001,SU,R001-1-SU,Larch Lane,1
+R002,WD,R002-0-WD,Ivy Walk,0
+R002,WD,R002-1-WD,Junction Arcade,1
+R002,SA,R002-0-SA,Ivy Walk,0
+R002,SA,R002-1-SA,Junction Arcade,1
+R002,SU,R002-0-SU,Ivy Walk,0
+R002,SU,R002-1-SU,Junction Arcade,1
+R003,WD,R003-0-WD,Junction Row,0
+R003,WD,R003-1-WD,Juniper Road,1
+R003,SA,R003-0-SA,Junction Row,0
+R003,SA,R003-1-SA,Juniper Road,1
+R003,SU,R003-0-SU,Junction Row,0
+R003,SU,R003-1-SU,Juniper Road,1
+R004,WD,R004-0-WD,Riverside Barracks,0
+R004,WD,R004-1-WD,Pine Avenue,1
+R004,SA,R004-0-SA,Riverside Barracks,0
+R004,SA,R004-1-SA,Pine Avenue,1
+R004,SU,R004-0-SU,Riverside Barracks,0
+R004,SU,R004-1-SU,Pine Avenue,1
+R005,WD,R005-0-WD-001,Hillcrest Park,0
+R005,WD,R005-0-WD-002,Hillcrest Park,0
+R005,WD,R005-0-WD-003,Hillcrest Park,0
+R005,WD,R005-0-WD-004,Hillcrest Park,0
+R005,WD,R005-0-WD-005,Hillcrest Park,0
+R005,WD,R005-0-WD-006,Hillcrest Park,0
+R005,WD,R005-0-WD-007,Hillcrest Park,0
+R005,WD,R005-0-WD-008,Hillcrest Park,0
+R005,WD,R005-0-WD-009,Hillcrest Park,0
+R005,WD,R005-0-WD-010,Hillcrest Park,0
+R005,WD,R005-0-WD-011,Hillcrest Park,0
+R005,WD,R005-0-WD-012,Hillcrest Park,0
+R005,WD,R005-0-WD-013,Hillcrest Park,0
+R005,WD,R005-0-WD-014,Hillcrest Park,0
+R005,WD,R005-0-WD-015,Hillcrest Park,0
+R005,WD,R005-0-WD-016,Hillcrest Park,0
+R005,WD,R005-0-WD-017,Hillcrest Park,0
+R005,WD,R005-0-WD-018,Hillcrest Park,0
+R005,WD,R005-0-WD-019,Hillcrest Park,0
+R005,WD,R005-0-WD-020,Hillcrest Park,0
+R005,WD,R005-0-WD-021,Hillcrest Park,0
+R005,WD,R005-0-WD-022,Hillcrest Park,0
+R005,WD,R005-0-WD-023,Hillcrest Park,0
+R005,WD,R005-0-WD-024,Hillcrest Park,0
+R005,WD,R005-0-WD-025,Hillcrest Park,0
+R005,WD,R005-0-WD-026,Hillcrest Park,0
+R005,WD,R005-0-WD-027,Hillcrest Park,0
+R005,WD,R005-0-WD-028,Hillcrest Park,0
+R005,WD,R005-0-WD-029,Hillcrest Park,0
+R005,WD,R005-0-WD-030,Hillcrest Park,0
+R005,WD,R005-0-WD-031,Hillcrest Park,0
+R005,WD,R005-0-WD-032,Hillcrest Park,0
+R005,WD,R005-0-WD-033,Hillcrest Park,0
+R005,WD,R005-0-WD-034,Hillcrest Park,0
+R005,WD,R005-0-WD-035,Hillcrest Park,0
+R005,WD,R005-0-WD-036,Hillcrest Park,0
+R005,WD,R005-0-WD-037,Hillcrest Park,0
+R005,WD,R005-0-WD-038,Hillcrest Park,0
+R005,WD,R005-0-WD-039,Hillcrest Park,0
+R005,WD,R005-0-WD-040,Hillcrest Park,0
+R005,WD,R005-0-WD-041,Hillcrest Park,0
+R005,WD,R005-0-WD-042,Hillcrest Park,0
+R005,WD,R005-0-WD-043,Hillcrest Park,0
+R005,WD,R005-0-WD-044,Hillcrest Park,0
+R005,WD,R005-0-WD-045,Hillcrest Park,0
+R005,WD,R005-0-WD-046,Hillcrest Park,0
+R005,WD,R005-0-WD-047,Hillcrest Park,0
+R005,WD,R005-0-WD-048,Hillcrest Park,0
+R005,WD,R005-0-WD-049,Hillcrest Park,0
+R005,WD,R005-0-WD-050,Hillcrest Park,0
+R005,WD,R005-1-WD-001,Larch Walk,1
+R005,WD,R005-1-WD-002,Larch Walk,1
+R005,WD,R005-1-WD-003,Larch Walk,1
+R005,WD,R005-1-WD-004,Larch Walk,1
+R005,WD,R005-1-WD-005,Larch Walk,1
+R005,WD,R005-1-WD-006,Larch Walk,1
+R005,WD,R005-1-WD-007,Larch Walk,1
+R005,WD,R005-1-WD-008,Larch Walk,1
+R005,WD,R005-1-WD-009,Larch Walk,1
+R005,WD,R005-1-WD-010,Larch Walk,1
+R005,WD,R005-1-WD-011,Larch Walk,1
+R005,WD,R005-1-WD-012,Larch Walk,1
+R005,WD,R005-1-WD-013,Larch Walk,1
+R005,WD,R005-1-WD-014,Larch Walk,1
+R005,WD,R005-1-WD-015,Larch Walk,1
+R005,WD,R005-1-WD-016,Larch Walk,1
+R005,WD,R005-1-WD-017,Larch Walk,1
+R005,WD,R005-1-WD-018,Larch Walk,1
+R005,WD,R005-1-WD-019,Larch Walk,1
+R005,WD,R005-1-WD-020,Larch Walk,1
+R005,WD,R005-1-WD-021,Larch Walk,1
+R005,WD,R005-1-WD-022,Larch Walk,1
+R005,WD,R005-1-WD-023,Larch Walk,1
+R005,WD,R005-1-WD-024,Larch Walk,1
+R005,WD,R005-1-WD-025,Larch Walk,1
+R005,WD,R005-1-WD-026,Larch Walk,1
+R005,WD,R005-1-WD-027,Larch Walk,1
+R005,WD,R005-1-WD-028,Larch Walk,1
+R005,WD,R005-1-WD-029,Larch Walk,1
+R005,WD,R005-1-WD-030,Larch Walk,1
+R005,WD,R005-1-WD-031,Larch Walk,1
+R005,WD,R005-1-WD-032,Larch Walk,1
+R005,WD,R005-1-WD-033,Larch Walk,1
+R005,WD,R005-1-WD-034,Larch Walk,1
+R005,WD,R005-1-WD-035,Larch Walk,1
+R005,WD,R005-1-WD-036,Larch Walk,1
+R005,WD,R005-1-WD-037,Larch Walk,1
+R005,WD,R005-1-WD-038,Larch Walk,1
+R005,WD,R005-1-WD-039,Larch Walk,1
+R005,WD,R005-1-WD-040,Larch Walk,1
+R005,WD,R005-1-WD-041,Larch Walk,1
+R005,WD,R005-1-WD-042,Larch Walk,1
+R005,WD,R005-1-WD-043,Larch Walk,1
+R005,WD,R005-1-WD-044,Larch Walk,1
+R005,WD,R005-1-WD-045,Larch Walk,1
+R005,WD,R005-1-WD-046,Larch Walk,1
+R005,WD,R005-1-WD-047,Larch Walk,1
+R005,WD,R005-1-WD-048,Larch Walk,1
+R005,WD,R005-1-WD-049,Larch Walk,1
+R005,WE,R005-0-WE-001,Hillcrest Park,0
+R005,WE,R005-0-WE-002,Hillcrest Park,0
+R005,WE,R005-0-WE-003,Hillcrest Park,0
+R005,WE,R005-0-WE-004,Hillcrest Park,0
+R005,WE,R005-0-WE-005,Hillcrest Park,0
+R005,WE,R005-0-WE-006,Hillcrest Park,0
+R005,WE,R005-0-WE-007,Hillcrest Park,0
+R005,WE,R005-0-WE-008,Hillcrest Park,0
+R005,WE,R005-0-WE-009,Hillcrest Park,0
+R005,WE,R005-0-WE-010,Hillcrest Park,0
+R005,WE,R005-0-WE-011,Hillcrest Park,0
+R005,WE,R005-0-WE-012,Hillcrest Park,0
+R005,WE,R005-0-WE-013,Hillcrest Park,0
+R005,WE,R005-0-WE-014,Hillcrest Park,0
+R005,WE,R005-0-WE-015,Hillcrest Park,0
+R005,WE,R005-0-WE-016,Hillcrest Park,0
+R005,WE,R005-0-WE-017,Hillcrest Park,0
+R005,WE,R005-0-WE-018,Hillcrest Park,0
+R005,WE,R005-0-WE-019,Hillcrest Park,0
+R005,WE,R005-0-WE-020,Hillcrest Park,0
+R005,WE,R005-0-WE-021,Hillcrest Park,0
+R005,WE,R005-0-WE-022,Hillcrest Park,0
+R005,WE,R005-0-WE-023,Hillcrest Park,0
+R005,WE,R005-0-WE-024,Hillcrest Park,0
+R005,WE,R005-0-WE-025,Hillcrest Park,0
+R005,WE,R005-0-WE-026,Hillcrest Park,0
+R005,WE,R005-0-WE-027,Hillcrest Park,0
+R005,WE,R005-0-WE-028,Hillcrest Park,0
+R005,WE,R005-0-WE-029,Hillcrest Park,0
+R005,WE,R005-0-WE-030,Hillcrest Park,0
+R005,WE,R005-0-WE-031,Hillcrest Park,0
+R005,WE,R005-0-WE-032,Hillcrest Park,0
+R005,WE,R005-0-WE-033,Hillcrest Park,0
+R005,WE,R005-0-WE-034,Hillcrest Park,0
+R005,WE,R005-0-WE-035,Hillcrest Park,0
+R005,WE,R005-1-WE-001,Larch Walk,1
+R005,WE,R005-1-WE-002,Larch Walk,1
+R005,WE,R005-1-WE-003,Larch Walk,1
+R005,WE,R005-1-WE-004,Larch Walk,1
+R005,WE,R005-1-WE-005,Larch Walk,1
+R005,WE,R005-1-WE-006,Larch Walk,1
+R005,WE,R005-1-WE-007,Larch Walk,1
+R005,WE,R005-1-WE-008,Larch Walk,1
+R005,WE,R005-1-WE-009,Larch Walk,1
+R005,WE,R005-1-WE-010,Larch Walk,1
+R005,WE,R005-1-WE-011,Larch Walk,1
+R005,WE,R005-1-WE-012,Larch Walk,1
+R005,WE,R005-1-WE-013,Larch Walk,1
+R005,WE,R005-1-WE-014,Larch Walk,1
+R005,WE,R005-1-WE-015,Larch Walk,1
+R005,WE,R005-1-WE-016,Larch Walk,1
+R005,WE,R005-1-WE-017,Larch Walk,1
+R005,WE,R005-1-WE-018,Larch Walk,1
+R005,WE,R005-1-WE-019,Larch Walk,1
+R005,WE,R005-1-WE-020,Larch Walk,1
+R005,WE,R005-1-WE-021,Larch Walk,1
+R005,WE,R005-1-WE-022,Larch Walk,1
+R005,WE,R005-1-WE-023,Larch Walk,1
+R005,WE,R005-1-WE-024,Larch Walk,1
+R005,WE,R005-1-WE-025,Larch Walk,1
+R005,WE,R005-1-WE-026,Larch Walk,1
+R005,WE,R005-1-WE-027,Larch Walk,1
+R005,WE,R005-1-WE-028,Larch Walk,1
+R005,WE,R005-1-WE-029,Larch Walk,1
+R005,WE,R005-1-WE-030,Larch Walk,1
+R005,WE,R005-1-WE-031,Larch Walk,1
+R005,WE,R005-1-WE-032,Larch Walk,1
+R005,WE,R005-1-WE-033,Larch Walk,1
+R005,WE,R005-1-WE-034,Larch Walk,1
+R006,WD,R006-0-WD-001,Hazel Way,0
+R006,WD,R006-0-WD-002,Hazel Way,0
+R006,WD,R006-0-WD-003,Hazel Way,0
+R006,WD,R006-0-WD-004,Hazel Way,0
+R006,WD,R006-0-WD-005,Hazel Way,0
+R006,WD,R006-0-WD-006,Hazel Way,0
+R006,WD,R006-0-WD-007,Hazel Way,0
+R006,WD,R006-0-WD-008,Hazel Way,0
+R006,WD,R006-0-WD-009,Hazel Way,0
+R006,WD,R006-0-WD-010,Hazel Way,0
+R006,WD,R006-0-WD-011,Hazel Way,0
+R006,WD,R006-0-WD-012,Hazel Way,0
+R006,WD,R006-0-WD-013,Hazel Way,0
+R006,WD,R006-0-WD-014,Hazel Way,0
+R006,WD,R006-0-WD-015,Hazel Way,0
+R006,WD,R006-0-WD-016,Hazel Way,0
+R006,WD,R006-0-WD-017,Hazel Way,0
+R006,WD,R006-0-WD-018,Hazel Way,0
+R006,WD,R006-0-WD-019,Hazel Way,0
+R006,WD,R006-0-WD-020,Hazel Way,0
+R006,WD,R006-0-WD-021,Hazel Way,0
+R006,WD,R006-0-WD-022,Hazel Way,0
+R006,WD,R006-0-WD-023,Hazel Way,0
+R006,WD,R006-0-WD-024,Hazel Way,0
+R006,WD,R006-0-WD-025,Hazel Way,0
+R006,WD,R006-0-WD-026,Hazel Way,0
+R006,WD,R006-0-WD-027,Hazel Way,0
+R006,WD,R006-0-WD-028,Hazel Way,0
+R006,WD,R006-0-WD-029,Hazel Way,0
+R006,WD,R006-0-WD-030,Hazel Way,0
+R006,WD,R006-0-WD-031,Hazel Way,0
+R006,WD,R006-0-WD-032,Hazel Way,0
+R006,WD,R006-0-WD-033,Hazel Way,0
+R006,WD,R006-0-WD-034,Hazel Way,0
+R006,WD,R006-0-WD-035,Hazel Way,0
+R006,WD,R006-0-WD-036,Hazel Way,0
+R006,WD,R006-0-WD-037,Hazel Way,0
+R006,WD,R006-0-WD-038,Hazel Way,0
+R006,WD,R006-0-WD-039,Hazel Way,0
+R006,WD,R006-0-WD-040,Hazel Way,0
+R006,WD,R006-0-WD-041,Hazel Way,0
+R006,WD,R006-0-WD-042,Hazel Way,0
+R006,WD,R006-0-WD-043,Hazel Way,0
+R006,WD,R006-0-WD-044,Hazel Way,0
+R006,WD,R006-0-WD-045,Hazel Way,0
+R006,WD,R006-0-WD-046,Hazel Way,0
+R006,WD,R006-0-WD-047,Hazel Way,0
+R006,WD,R006-0-WD-048,Hazel Way,0
+R006,WD,R006-0-WD-049,Hazel Way,0
+R006,WD,R006-0-WD-050,Hazel Way,0
+R006,WD,R006-1-WD-001,Greenfield Museum,1
+R006,WD,R006-1-WD-002,Greenfield Museum,1
+R006,WD,R006-1-WD-003,Greenfield Museum,1
+R006,WD,R006-1-WD-004,Greenfield Museum,1
+R006,WD,R006-1-WD-005,Greenfield Museum,1
+R006,WD,R006-1-WD-006,Greenfield Museum,1
+R006,WD,R006-1-WD-007,Greenfield Museum,1
+R006,WD,R006-1-WD-008,Greenfield Museum,1
+R006,WD,R006-1-WD-009,Greenfield Museum,1
+R006,WD,R006-1-WD-010,Greenfield Museum,1
+R006,WD,R006-1-WD-011,Greenfield Museum,1
+R006,WD,R006-1-WD-012,Greenfield Museum,1
+R006,WD,R006-1-WD-013,Greenfield Museum,1
+R006,WD,R006-1-WD-014,Greenfield Museum,1
+R006,WD,R006-1-WD-015,Greenfield Museum,1
+R006,WD,R006-1-WD-016,Greenfield Museum,1
+R006,WD,R006-1-WD-017,Greenfield Museum,1
+R006,WD,R006-1-WD-018,Greenfield Museum,1
+R006,WD,R006-1-WD-019,Greenfield Museum,1
+R006,WD,R006-1-WD-020,Greenfield Museum,1
+R006,WD,R006-1-WD-021,Greenfield Museum,1
+R006,WD,R006-1-WD-022,Greenfield Museum,1
+R006,WD,R006-1-WD-023,Greenfield Museum,1
+R006,WD,R006-1-WD-024,Greenfield Museum,1
+R006,WD,R006-1-WD-025,Greenfield Museum,1
+R006,WD,R006-1-WD-026,Greenfield Museum,1
+R006,WD,R006-1-WD-027,Greenfield Museum,1
+R006,WD,R006-1-WD-028,Greenfield Museum,1
+R006,WD,R006-1-WD-029,Greenfield Museum,1
+R006,WD,R006-1-WD-030,Greenfield Museum,1
+R006,WD,R006-1-WD-031,Greenfield Museum,1
+R006,WD,R006-1-WD-032,Greenfield Museum,1
+R006,WD,R006-1-WD-033,Greenfield Museum,1
+R006,WD,R006-1-WD-034,Greenfield Museum,1
+R006,WD,R006-1-WD-035,Greenfield Museum,1
+R006,WD,R006-1-WD-036,Greenfield Museum,1
+R006,WD,R006-1-WD-037,Greenfield Museum,1
+R006,WD,R006-1-WD-038,Greenfield Museum,1
+R006,WD,R006-1-WD-039,Greenfield Museum,1
+R006,WD,R006-1-WD-040,Greenfield Museum,1
+R006,WD,R006-1-WD-041,Greenfield Museum,1
+R006,WD,R006-1-WD-042,Greenfield Museum,1
+R006,WD,R006-1-WD-043,Greenfield Museum,1
+R006,WD,R006-1-WD-044,Greenfield Museum,1
+R006,WD,R006-1-WD-045,Greenfield Museum,1
+R006,WD,R006-1-WD-046,Greenfield Museum,1
+R006,WD,R006-1-WD-047,Greenfield Museum,1
+R006,WD,R006-1-WD-048,Greenfield Museum,1
+R006,WD,R006-1-WD-049,Greenfield Museum,1
+R006,WE,R006-0-WE-001,Hazel Way,0
+R006,WE,R006-0-WE-002,Hazel Way,0
+R006,WE,R006-0-WE-003,Hazel Way,0
+R006,WE,R006-0-WE-004,Hazel Way,0
+R006,WE,R006-0-WE-005,Hazel Way,0
+R006,WE,R006-0-WE-006,Hazel Way,0
+R006,WE,R006-0-WE-007,Hazel Way,0
+R006,WE,R006-0-WE-008,Hazel Way,0
+R006,WE,R006-0-WE-009,Hazel Way,0
+R006,WE,R006-0-WE-010,Hazel Way,0
+R006,WE,R006-0-WE-011,Hazel Way,0
+R006,WE,R006-0-WE-012,Hazel Way,0
+R006,WE,R006-0-WE-013,Hazel Way,0
+R006,WE,R006-0-WE-014,Hazel Way,0
+R006,WE,R006-0-WE-015,Hazel Way,0
+R006,WE,R006-0-WE-016,Hazel Way,0
+R006,WE,R006-0-WE-017,Hazel Way,0
+R006,WE,R006-0-WE-018,Hazel Way,0
+R006,WE,R006-0-WE-019,Hazel Way,0
+R006,WE,R006-0-WE-020,Hazel Way,0
+R006,WE,R006-0-WE-021,Hazel Way,0
+R006,WE,R006-0-WE-022,Hazel Way,0
+R006,WE,R006-0-WE-023,Hazel Way,0
+R006,WE,R006-0-WE-024,Hazel Way,0
+R006,WE,R006-0-WE-025,Hazel Way,0
+R006,WE,R006-0-WE-026,Hazel Way,0
+R006,WE,R006-0-WE-027,Hazel Way,0
+R006,WE,R006-0-WE-028,Hazel Way,0
+R006,WE,R006-0-WE-029,Hazel Way,0
+R006,WE,R006-0-WE-030,Hazel Way,0
+R006,WE,R006-0-WE-031,Hazel Way,0
+R006,WE,R006-0-WE-032,Hazel Way,0
+R006,WE,R006-0-WE-033,Hazel Way,0
+R006,WE,R006-0-WE-034,Hazel Way,0
+R006,WE,R006-0-WE-035,Hazel Way,0
+R006,WE,R006-1-WE-001,Greenfield Museum,1
+R006,WE,R006-1-WE-002,Greenfield Museum,1
+R006,WE,R006-1-WE-003,Greenfield Museum,1
+R006,WE,R006-1-WE-004,Greenfield Museum,1
+R006,WE,R006-1-WE-005,Greenfield Museum,1
+R006,WE,R006-1-WE-006,Greenfield Museum,1
+R006,WE,R006-1-WE-007,Greenfield Museum,1
+R006,WE,R006-1-WE-008,Greenfield Museum,1
+R006,WE,R006-1-WE-009,Greenfield Museum,1
+R006,WE,R006-1-WE-010,Greenfield Museum,1
+R006,WE,R006-1-WE-011,Greenfield Museum,1
+R006,WE,R006-1-WE-012,Greenfield Museum,1
+R006,WE,R006-1-WE-013,Greenfield Museum,1
+R006,WE,R006-1-WE-014,Greenfield Museum,1
+R006,WE,R006-1-WE-015,Greenfield Museum,1
+R006,WE,R006-1-WE-016,Greenfield Museum,1
+R006,WE,R006-1-WE-017,Greenfield Museum,1
+R006,WE,R006-1-WE-018,Greenfield Museum,1
+R006,WE,R006-1-WE-019,Greenfield Museum,1
+R006,WE,R006-1-WE-020,Greenfield Museum,1
+R006,WE,R006-1-WE-021,Greenfield Museum,1
+R006,WE,R006-1-WE-022,Greenfield Museum,1
+R006,WE,R006-1-WE-023,Greenfield Museum,1
+R006,WE,R006-1-WE-024,Greenfield Museum,1
+R006,WE,R006-1-WE-025,Greenfield Museum,1
+R006,WE,R006-1-WE-026,Greenfield Museum,1
+R006,WE,R006-1-WE-027,Greenfield Museum,1
+R006,WE,R006-1-WE-028,Greenfield Museum,1
+R006,WE,R006-1-WE-029,Greenfield Museum,1
+R006,WE,R006-1-WE-030,Greenfield Museum,1
+R006,WE,R006-1-WE-031,Greenfield Museum,1
+R006,WE,R006-1-WE-032,Greenfield Museum,1
+R006,WE,R006-1-WE-033,Greenfield Museum,1
+R006,WE,R006-1-WE-034,Greenfield Museum,1
+R007,WD,R007-0-WD-001,Cedar Walk,0
+R007,WD,R007-0-WD-002,Cedar Walk,0
+R007,WD,R007-0-WD-003,Cedar Walk,0
+R007,WD,R007-0-WD-004,Cedar Walk,0
+R007,WD,R007-0-WD-005,Cedar Walk,0
+R007,WD,R007-0-WD-006,Cedar Walk,0
+R007,WD,R007-0-WD-007,Cedar Walk,0
+R007,WD,R007-0-WD-008,Cedar Walk,0
+R007,WD,R007-0-WD-009,Cedar Walk,0
+R007,WD,R007-0-WD-010,Cedar Walk,0
+R007,WD,R007-0-WD-011,Cedar Walk,0
+R007,WD,R007-0-WD-012,Cedar Walk,0
+R007,WD,R007-0-WD-013,Cedar Walk,0
+R007,WD,R007-0-WD-014,Cedar Walk,0
+R007,WD,R007-0-WD-015,Cedar Walk,0
+R007,WD,R007-0-WD-016,Cedar Walk,0
+R007,WD,R007-0-WD-017,Cedar Walk,0
+R007,WD,R007-0-WD-018,Cedar Walk,0
+R007,WD,R007-0-WD-019,Cedar Walk,0
+R007,WD,R007-0-WD-020,Cedar Walk,0
+R007,WD,R007-0-WD-021,Cedar Walk,0
+R007,WD,R007-0-WD-022,Cedar Walk,0
+R007,WD,R007-0-WD-023,Cedar Walk,0
+R007,WD,R007-0-WD-024,Cedar Walk,0
+R007,WD,R007-0-WD-025,Cedar Walk,0
+R007,WD,R007-0-WD-026,Cedar Walk,0
+R007,WD,R007-0-WD-027,Cedar Walk,0
+R007,WD,R007-0-WD-028,Cedar Walk,0
+R007,WD,R007-0-WD-029,Cedar Walk,0
+R007,WD,R007-0-WD-030,Cedar Walk,0
+R007,WD,R007-0-WD-031,Cedar Walk,0
+R007,WD,R007-0-WD-032,Cedar Walk,0
+R007,WD,R007-0-WD-033,Cedar Walk,0
+R007,WD,R007-0-WD-034,Cedar Walk,0
+R007,WD,R007-0-WD-035,Cedar Walk,0
+R007,WD,R007-0-WD-036,Cedar Walk,0
+R007,WD,R007-0-WD-037,Cedar Walk,0
+R007,WD,R007-0-WD-038,Cedar Walk,0
+R007,WD,R007-0-WD-039,Cedar Walk,0
+R007,WD,R007-0-WD-040,Cedar Walk,0
+R007,WD,R007-0-WD-041,Cedar Walk,0
+R007,WD,R007-0-WD-042,Cedar Walk,0
+R007,WD,R007-0-WD-043,Cedar Walk,0
+R007,WD,R007-0-WD-044,Cedar Walk,0
+R007,WD,R007-0-WD-045,Cedar Walk,0
+R007,WD,R007-0-WD-046,Cedar Walk,0
+R007,WD,R007-0-WD-047,Cedar Walk,0
+R007,WD,R007-0-WD-048,Cedar Walk,0
+R007,WD,R007-0-WD-049,Cedar Walk,0
+R007,WD,R007-0-WD-050,Cedar Walk,0
+R007,WD,R007-1-WD-001,Hillcrest Museum,1
+R007,WD,R007-1-WD-002,Hillcrest Museum,1
+R007,WD,R007-1-WD-003,Hillcrest Museum,1
+R007,WD,R007-1-WD-004,Hillcrest Museum,1
+R007,WD,R007-1-WD-005,Hillcrest Museum,1
+R007,WD,R007-1-WD-006,Hillcrest Museum,1
+R007,WD,R007-1-WD-007,Hillcrest Museum,1
+R007,WD,R007-1-WD-008,Hillcrest Museum,1
+R007,WD,R007-1-WD-009,Hillcrest Museum,1
+R007,WD,R007-1-WD-010,Hillcrest Museum,1
+R007,WD,R007-1-WD-011,Hillcrest Museum,1
+R007,WD,R007-1-WD-012,Hillcrest Museum,1
+R007,WD,R007-1-WD-013,Hillcrest Museum,1
+R007,WD,R007-1-WD-014,Hillcrest Museum,1
+R007,WD,R007-1-WD-015,Hillcrest Museum,1
+R007,WD,R007-1-WD-016,Hillcrest Museum,1
+R007,WD,R007-1-WD-017,Hillcrest Museum,1
+R007,WD,R007-1-WD-018,Hillcrest Museum,1
+R007,WD,R007-1-WD-019,Hillcrest Museum,1
+R007,WD,R007-1-WD-020,Hillcrest Museum,1
+R007,WD,R007-1-WD-021,Hillcrest Museum,1
+R007,WD,R007-1-WD-022,Hillcrest Museum,1
+R007,WD,R007-1-WD-023,Hillcrest Museum,1
+R007,WD,R007-1-WD-024,Hillcrest Museum,1
+R007,WD,R007-1-WD-025,Hillcrest Museum,1
+R007,WD,R007-1-WD-026,Hillcrest Museum,1
+R007,WD,R007-1-WD-027,Hillcrest Museum,1
+R007,WD,R007-1-WD-028,Hillcrest Museum,1
+R007,WD,R007-1-WD-029,Hillcrest Museum,1
+R007,WD,R007-1-WD-030,Hillcrest Museum,1
+R007,WD,R007-1-WD-031,Hillcrest Museum,1
+R007,WD,R007-1-WD-032,Hillcrest Museum,1
+R007,WD,R007-1-WD-033,Hillcrest Museum,1
+R007,WD,R007-1-WD-034,Hillcrest Museum,1
+R007,WD,R007-1-WD-035,Hillcrest Museum,1
+R007,WD,R007-1-WD-036,Hillcrest Museum,1
+R007,WD,R007-1-WD-037,Hillcrest Museum,1
+R007,WD,R007-1-WD-038,Hillcrest Museum,1
+R007,WD,R007-1-WD-039,Hillcrest Museum,1
+R007,WD,R007-1-WD-040,Hillcrest Museum,1
+R007,WD,R007-1-WD-041,Hillcrest Museum,1
+R007,WD,R007-1-WD-042,Hillcrest Museum,1
+R007,WD,R007-1-WD-043,Hillcrest Museum,1
+R007,WD,R007-1-WD-044,Hillcrest Museum,1
+R007,WD,R007-1-WD-045,Hillcrest Museum,1
+R007,WD,R007-1-WD-046,Hillcrest Museum,1
+R007,WD,R007-1-WD-047,Hillcrest Museum,1
+R007,WD,R007-1-WD-048,Hillcrest Museum,1
+R007,WD,R007-1-WD-049,Hillcrest Museum,1
+R007,WE,R007-0-WE-001,Cedar Walk,0
+R007,WE,R007-0-WE-002,Cedar Walk,0
+R007,WE,R007-0-WE-003,Cedar Walk,0
+R007,WE,R007-0-WE-004,Cedar Walk,0
+R007,WE,R007-0-WE-005,Cedar Walk,0
+R007,WE,R007-0-WE-006,Cedar Walk,0
+R007,WE,R007-0-WE-007,Cedar Walk,0
+R007,WE,R007-0-WE-008,Cedar Walk,0
+R007,WE,R007-0-WE-009,Cedar Walk,0
+R007,WE,R007-0-WE-010,Cedar Walk,0
+R007,WE,R007-0-WE-011,Cedar Walk,0
+R007,WE,R007-0-WE-012,Cedar Walk,0
+R007,WE,R007-0-WE-013,Cedar Walk,0
+R007,WE,R007-0-WE-014,Cedar Walk,0
+R007,WE,R007-0-WE-015,Cedar Walk,0
+R007,WE,R007-0-WE-016,Cedar Walk,0
+R007,WE,R007-0-WE-017,Cedar Walk,0
+R007,WE,R007-0-WE-018,Cedar Walk,0
+R007,WE,R007-0-WE-019,Cedar Walk,0
+R007,WE,R007-0-WE-020,Cedar Walk,0
+R007,WE,R007-0-WE-021,Cedar Walk,0
+R007,WE,R007-0-WE-022,Cedar Walk,0
+R007,WE,R007-0-WE-023,Cedar Walk,0
+R007,WE,R007-0-WE-024,Cedar Walk,0
+R007,WE,R007-0-WE-025,Cedar Walk,0
+R007,WE,R007-0-WE-026,Cedar Walk,0
+R007,WE,R007-0-WE-027,Cedar Walk,0
+R007,WE,R007-0-WE-028,Cedar Walk,0
+R007,WE,R007-0-WE-029,Cedar Walk,0
+R007,WE,R007-0-WE-030,Cedar Walk,0
+R007,WE,R007-0-WE-031,Cedar Walk,0
+R007,WE,R007-0-WE-032,Cedar Walk,0
+R007,WE,R007-0-WE-033,Cedar Walk,0
+R007,WE,R007-0-WE-034,Cedar Walk,0
+R007,WE,R007-0-WE-035,Cedar Walk,0
+R007,WE,R007-1-WE-001,Hillcrest Museum,1
+R007,WE,R007-1-WE-002,Hillcrest Museum,1
+R007,WE,R007-1-WE-003,Hillcrest Museum,1
+R007,WE,R007-1-WE-004,Hillcrest Museum,1
+R007,WE,R007-1-WE-005,Hillcrest Museum,1
+R007,WE,R007-1-WE-006,Hillcrest Museum,1
+R007,WE,R007-1-WE-007,Hillcrest Museum,1
+R007,WE,R007-1-WE-008,Hillcrest Museum,1
+R007,WE,R007-1-WE-009,Hillcrest Museum,1
+R007,WE,R007-1-WE-010,Hillcrest Museum,1
+R007,WE,R007-1-WE-011,Hillcrest Museum,1
+R007,WE,R007-1-WE-012,Hillcrest Museum,1
+R007,WE,R007-1-WE-013,Hillcrest Museum,1
+R007,WE,R007-1-WE-014,Hillcrest Museum,1
+R007,WE,R007-1-WE-015,Hillcrest Museum,1
+R007,WE,R007-1-WE-016,Hillcrest Museum,1
+R007,WE,R007-1-WE-017,Hillcrest Museum,1
+R007,WE,R007-1-WE-018,Hillcrest Museum,1
+R007,WE,R007-1-WE-019,Hillcrest Museum,1
+R007,WE,R007-1-WE-020,Hillcrest Museum,1
+R007,WE,R007-1-WE-021,Hillcrest Museum,1
+R007,WE,R007-1-WE-022,Hillcrest Museum,1
+R007,WE,R007-1-WE-023,Hillcrest Museum,1
+R007,WE,R007-1-WE-024,Hillcrest Museum,1
+R007,WE,R007-1-WE-025,Hillcrest Museum,1
+R007,WE,R007-1-WE-026,Hillcrest Museum,1
+R007,WE,R007-1-WE-027,Hillcrest Museum,1
+R007,WE,R007-1-WE-028,Hillcrest Museum,1
+R007,WE,R007-1-WE-029,Hillcrest Museum,1
+R007,WE,R007-1-WE-030,Hillcrest Museum,1
+R007,WE,R007-1-WE-031,Hillcrest Museum,1
+R007,WE,R007-1-WE-032,Hillcrest Museum,1
+R007,WE,R007-1-WE-033,Hillcrest Museum,1
+R007,WE,R007-1-WE-034,Hillcrest Museum,1
+R008,WD,R008-0-WD-001,Larch Road,0
+R008,WD,R008-0-WD-002,Larch Road,0
+R008,WD,R008-0-WD-003,Larch Road,0
+R008,WD,R008-0-WD-004,Larch Road,0
+R008,WD,R008-0-WD-005,Larch Road,0
+R008,WD,R008-0-WD-006,Larch Road,0
+R008,WD,R008-0-WD-007,Larch Road,0
+R008,WD,R008-0-WD-008,Larch Road,0
+R008,WD,R008-0-WD-009,Larch Road,0
+R008,WD,R008-0-WD-010,Larch Road,0
+R008,WD,R008-0-WD-011,Larch Road,0
+R008,WD,R008-0-WD-012,Larch Road,0
+R008,WD,R008-0-WD-013,Larch Road,0
+R008,WD,R008-0-WD-014,Larch Road,0
+R008,WD,R008-0-WD-015,Larch Road,0
+R008,WD,R008-0-WD-016,Larch Road,0
+R008,WD,R008-0-WD-017,Larch Road,0
+R008,WD,R008-0-WD-018,Larch Road,0
+R008,WD,R008-0-WD-019,Larch Road,0
+R008,WD,R008-0-WD-020,Larch Road,0
+R008,WD,R008-0-WD-021,Larch Road,0
+R008,WD,R008-0-WD-022,Larch Road,0
+R008,WD,R008-0-WD-023,Larch Road,0
+R008,WD,R008-0-WD-024,Larch Road,0
+R008,WD,R008-0-WD-025,Larch Road,0
+R008,WD,R008-0-WD-026,Larch Road,0
+R008,WD,R008-0-WD-027,Larch Road,0
+R008,WD,R008-0-WD-028,Larch Road,0
+R008,WD,R008-0-WD-029,Larch Road,0
+R008,WD,R008-0-WD-030,Larch Road,0
+R008,WD,R008-0-WD-031,Larch Road,0
+R008,WD,R008-0-WD-032,Larch Road,0
+R008,WD,R008-0-WD-033,Larch Road,0
+R008,WD,R008-0-WD-034,Larch Road,0
+R008,WD,R008-0-WD-035,Larch Road,0
+R008,WD,R008-0-WD-036,Larch Road,0
+R008,WD,R008-0-WD-037,Larch Road,0
+R008,WD,R008-0-WD-038,Larch Road,0
+R008,WD,R008-0-WD-039,Larch Road,0
+R008,WD,R008-0-WD-040,Larch Road,0
+R008,WD,R008-0-WD-041,Larch Road,0
+R008,WD,R008-0-WD-042,Larch Road,0
+R008,WD,R008-0-WD-043,Larch Road,0
+R008,WD,R008-0-WD-044,Larch Road,0
+R008,WD,R008-0-WD-045,Larch Road,0
+R008,WD,R008-0-WD-046,Larch Road,0
+R008,WD,R008-0-WD-047,Larch Road,0
+R008,WD,R008-0-WD-048,Larch Road,0
+R008,WD,R008-0-WD-049,Larch Road,0
+R008,WD,R008-0-WD-050,Larch Road,0
+R008,WD,R008-1-WD-001,Holly Close,1
+R008,WD,R008-1-WD-002,Holly Close,1
+R008,WD,R008-1-WD-003,Holly Close,1
+R008,WD,R008-1-WD-004,Holly Close,1
+R008,WD,R008-1-WD-005,Holly Close,1
+R008,WD,R008-1-WD-006,Holly Close,1
+R008,WD,R008-1-WD-007,Holly Close,1
+R008,WD,R008-1-WD-008,Holly Close,1
+R008,WD,R008-1-WD-009,Holly Close,1
+R008,WD,R008-1-WD-010,Holly Close,1
+R008,WD,R008-1-WD-011,Holly Close,1
+R008,WD,R008-1-WD-012,Holly Close,1
+R008,WD,R008-1-WD-013,Holly Close,1
+R008,WD,R008-1-WD-014,Holly Close,1
+R008,WD,R008-1-WD-015,Holly Close,1
+R008,WD,R008-1-WD-016,Holly Close,1
+R008,WD,R008-1-WD-017,Holly Close,1
+R008,WD,R008-1-WD-018,Holly Close,1
+R008,WD,R008-1-WD-019,Holly Close,1
+R008,WD,R008-1-WD-020,Holly Close,1
+R008,WD,R008-1-WD-021,Holly Close,1
+R008,WD,R008-1-WD-022,Holly Close,1
+R008,WD,R008-1-WD-023,Holly Close,1
+R008,WD,R008-1-WD-024,Holly Close,1
+R008,WD,R008-1-WD-025,Holly Close,1
+R008,WD,R008-1-WD-026,Holly Close,1
+R008,WD,R008-1-WD-027,Holly Close,1
+R008,WD,R008-1-WD-028,Holly Close,1
+R008,WD,R008-1-WD-029,Holly Close,1
+R008,WD,R008-1-WD-030,Holly Close,1
+R008,WD,R008-1-WD-031,Holly Close,1
+R008,WD,R008-1-WD-032,Holly Close,1
+R008,WD,R008-1-WD-033,Holly Close,1
+R008,WD,R008-1-WD-034,Holly Close,1
+R008,WD,R008-1-WD-035,Holly Close,1
+R008,WD,R008-1-WD-036,Holly Close,1
+R008,WD,R008-1-WD-037,Holly Close,1
+R008,WD,R008-1-WD-038,Holly Close,1
+R008,WD,R008-1-WD-039,Holly Close,1
+R008,WD,R008-1-WD-040,Holly Close,1
+R008,WD,R008-1-WD-041,Holly Close,1
+R008,WD,R008-1-WD-042,Holly Close,1
+R008,WD,R008-1-WD-043,Holly Close,1
+R008,WD,R008-1-WD-044,Holly Close,1
+R008,WD,R008-1-WD-045,Holly Close,1
+R008,WD,R008-1-WD-046,Holly Close,1
+R008,WD,R008-1-WD-047,Holly Close,1
+R008,WD,R008-1-WD-048,Holly Close,1
+R008,WD,R008-1-WD-049,Holly Close,1
+R008,WE,R008-0-WE-001,Larch Road,0
+R008,WE,R008-0-WE-002,Larch Road,0
+R008,WE,R008-0-WE-003,Larch Road,0
+R008,WE,R008-0-WE-004,Larch Road,0
+R008,WE,R008-0-WE-005,Larch Road,0
+R008,WE,R008-0-WE-006,Larch Road,0
+R008,WE,R008-0-WE-007,Larch Road,0
+R008,WE,R008-0-WE-008,Larch Road,0
+R008,WE,R008-0-WE-009,Larch Road,0
+R008,WE,R008-0-WE-010,Larch Road,0
+R008,WE,R008-0-WE-011,Larch Road,0
+R008,WE,R008-0-WE-012,Larch Road,0
+R008,WE,R008-0-WE-013,Larch Road,0
+R008,WE,R008-0-WE-014,Larch Road,0
+R008,WE,R008-0-WE-015,Larch Road,0
+R008,WE,R008-0-WE-016,Larch Road,0
+R008,WE,R008-0-WE-017,Larch Road,0
+R008,WE,R008-0-WE-018,Larch Road,0
+R008,WE,R008-0-WE-019,Larch Road,0
+R008,WE,R008-0-WE-020,Larch Road,0
+R008,WE,R008-0-WE-021,Larch Road,0
+R008,WE,R008-0-WE-022,Larch Road,0
+R008,WE,R008-0-WE-023,Larch Road,0
+R008,WE,R008-0-WE-024,Larch Road,0
+R008,WE,R008-0-WE-025,Larch Road,0
+R008,WE,R008-0-WE-026,Larch Road,0
+R008,WE,R008-0-WE-027,Larch Road,0
+R008,WE,R008-0-WE-028,Larch Road,0
+R008,WE,R008-0-WE-029,Larch Road,0
+R008,WE,R008-0-WE-030,Larch Road,0
+R008,WE,R008-0-WE-031,Larch Road,0
+R008,WE,R008-0-WE-032,Larch Road,0
+R008,WE,R008-0-WE-033,Larch Road,0
+R008,WE,R008-0-WE-034,Larch Road,0
+R008,WE,R008-0-WE-035,Larch Road,0
+R008,WE,R008-1-WE-001,Holly Close,1
+R008,WE,R008-1-WE-002,Holly Close,1
+R008,WE,R008-1-WE-003,Holly Close,1
+R008,WE,R008-1-WE-004,Holly Close,1
+R008,WE,R008-1-WE-005,Holly Close,1
+R008,WE,R008-1-WE-006,Holly Close,1
+R008,WE,R008-1-WE-007,Holly Close,1
+R008,WE,R008-1-WE-008,Holly Close,1
+R008,WE,R008-1-WE-009,Holly Close,1
+R008,WE,R008-1-WE-010,Holly Close,1
+R008,WE,R008-1-WE-011,Holly Close,1
+R008,WE,R008-1-WE-012,Holly Close,1
+R008,WE,R008-1-WE-013,Holly Close,1
+R008,WE,R008-1-WE-014,Holly Close,1
+R008,WE,R008-1-WE-015,Holly Close,1
+R008,WE,R008-1-WE-016,Holly Close,1
+R008,WE,R008-1-WE-017,Holly Close,1
+R008,WE,R008-1-WE-018,Holly Close,1
+R008,WE,R008-1-WE-019,Holly Close,1
+R008,WE,R008-1-WE-020,Holly Close,1
+R008,WE,R008-1-WE-021,Holly Close,1
+R008,WE,R008-1-WE-022,Holly Close,1
+R008,WE,R008-1-WE-023,Holly Close,1
+R008,WE,R008-1-WE-024,Holly Close,1
+R008,WE,R008-1-WE-025,Holly Close,1
+R008,WE,R008-1-WE-026,Holly Close,1
+R008,WE,R008-1-WE-027,Holly Close,1
+R008,WE,R008-1-WE-028,Holly Close,1
+R008,WE,R008-1-WE-029,Holly Close,1
+R008,WE,R008-1-WE-030,Holly Close,1
+R008,WE,R008-1-WE-031,Holly Close,1
+R008,WE,R008-1-WE-032,Holly Close,1
+R008,WE,R008-1-WE-033,Holly Close,1
+R008,WE,R008-1-WE-034,Holly Close,1
+R009,WD,R009-0-WD,Steelyard Yard,0
+R009,WD,R009-1-WD,Vinegrove Locks,1
+R009,SA,R009-0-SA,Steelyard Yard,0
+R009,SA,R009-1-SA,Vinegrove Locks,1
+R009,SU,R009-0-SU,Steelyard Yard,0
+R009,SU,R009-1-SU,Vinegrove Locks,1
+R010,WD,R010-0-WD,Brickworks Works,0
+R010,WD,R010-1-WD,Birch Terrace,1
+R010,SA,R010-0-SA,Brickworks Works,0
+R010,SA,R010-1-SA,Birch Terrace,1
+R010,SU,R010-0-SU,Brickworks Works,0
+R010,SU,R010-1-SU,Birch Terrace,1
+R011,WD,R011-0-WD,Northgate Tower,0
+R011,WD,R011-1-WD,Cedar Road,1
+R011,SA,R011-0-SA,Northgate Tower,0
+R011,SA,R011-1-SA,Cedar Road,1
+R011,SU,R011-0-SU,Northgate Tower,0
+R011,SU,R011-1-SU,Cedar Road,1
+R012,WD,R012-0-WD,Marsh End Works,0
+R012,WD,R012-1-WD,Southgate Steps,1
+R012,SA,R012-0-SA,Marsh End Works,0
+R012,SA,R012-1-SA,Southgate Steps,1
+R012,SU,R012-0-SU,Marsh End Works,0
+R012,SU,R012-1-SU,Southgate Steps,1
+R013,WD,R013-0-WD,Kestrel Park Rise,0
+R013,WD,R013-1-WD,Vinegrove Gate,1
+R013,SA,R013-0-SA,Kestrel Park Rise,0
+R013,SA,R013-1-SA,Vinegrove Gate,1
+R013,SU,R013-0-SU,Kestrel Park Rise,0
+R013,SU,R013-1-SU,Vinegrove Gate,1
+R014,WD,R014-0-WD,Lakeside Priory,0
+R014,WD,R014-1-WD,Willow Lane,1
+R014,SA,R014-0-SA,Lakeside Priory,0
+R014,SA,R014-1-SA,Willow Lane,1
+R014,SU,R014-0-SU,Lakeside Priory,0
+R014,SU,R014-1-SU,Willow Lane,1
+R015,WD,R015-0-WD,Willow Crescent,0
+R015,WD,R015-1-WD,Walnut Street,1
+R015,SA,R015-0-SA,Willow Crescent,0
+R015,SA,R015-1-SA,Walnut Street,1
+R015,SU,R015-0-SU,Willow Crescent,0
+R015,SU,R015-1-SU,Walnut Street,1
+R016,WD,R016-0-WD,Holly Street,0
+R016,WD,R016-1-WD,Willow Way,1
+R016,SA,R016-0-SA,Holly Street,0
+R016,SA,R016-1-SA,Willow Way,1
+R016,SU,R016-0-SU,Holly Street,0
+R016,SU,R016-1-SU,Willow Way,1
+R017,WD,R017-0-WD,Kestrel Park Market,0
+R017,WD,R017-1-WD,Vinegrove Museum,1
+R017,SA,R017-0-SA,Kestrel Park Market,0
+R017,SA,R017-1-SA,Vinegrove Museum,1
+R017,SU,R017-0-SU,Kestrel Park Market,0
+R017,SU,R017-1-SU,Vinegrove Museum,1
+R018,WD,R018-0-WD,Fairmount Court,0
+R018,WD,R018-1-WD,Lakeside Arcade,1
+R018,WE,R018-0-WE,Fairmount Court,0
+R018,WE,R018-1-WE,Lakeside Arcade,1
+R019,WD,R019-0-WD,Birch Walk,0
+R019,WD,R019-1-WD,Greenfield Exchange,1
+R019,WE,R019-0-WE,Birch Walk,0
+R019,WE,R019-1-WE,Greenfield Exchange,1
+R020,WD,R020-0-WD,Harborside Crossing,0
+R020,WD,R020-1-WD,Southgate Court,1
+R020,WE,R020-0-WE,Harborside Crossing,0
+R020,WE,R020-1-WE,Southgate Court,1
+R021,WD,R021-0-WD,Fairmount Yard,0
+R021,WD,R021-1-WD,Riverside Park,1
+R022,WD,R022-0-WD,Westbridge Stadium,0
+R022,WD,R022-1-WD,Oldtown Locks,1
+R022,WE,R022-0-WE,Westbridge Stadium,0
+R022,WE,R022-1-WE,Oldtown Locks,1
+R023,WD,R023-0-WD,Pine Road,0
+R023,WD,R023-1-WD,Lakeside Locks,1
+R023,WE,R023-0-WE,Pine Road,0
+R023,WE,R023-1-WE,Lakeside Locks,1
+R024,WD,R024-0-WD,Beech Crescent,0
+R024,WD,R024-1-WD,Elmwood Green,1
+R024,WE,R024-0-WE,Beech Crescent,0
+R024,WE,R024-1-WE,Elmwood Green,1
+R025,WD,R025-0-WD,Beech Walk,0
+R025,WD,R025-1-WD,Poplar Walk,1
+R025,WE,R025-0-WE,Beech Walk,0
+R025,WE,R025-1-WE,Poplar Walk,1
+R026,WD,R026-0-WD,Junction Locks,0
+R026,WD,R026-1-WD,Lakeside Exchange,1
+R026,WE,R026-0-WE,Junction Locks,0
+R026,WE,R026-1-WE,Lakeside Exchange,1
+R027,WD,R027-0-WD,Steelyard Museum,0
+R027,WD,R027-1-WD,Hillcrest Library,1
+R027,WE,R027-0-WE,Steelyard Museum,0
+R027,WE,R027-1-WE,Hillcrest Library,1
+R028,WD,R028-0-WD,Lakeside Wharf,0
+R028,WD,R028-1-WD,Brickworks Locks,1
+R028,WE,R028-0-WE,Lakeside Wharf,0
+R028,WE,R028-1-WE,Brickworks Locks,1
+R029,WD,R029-0-WD,Linden Terrace,0
+R029,WD,R029-1-WD,Harborside Chapel,1
+R029,WE,R029-0-WE,Linden Terrace,0
+R029,WE,R029-1-WE,Harborside Chapel,1
+R030,WD,R030-0-WD,Harborside Junction,0
+R030,WD,R030-1-WD,Hillcrest Row,1
+R030,WE,R030-0-WE,Harborside Junction,0
+R030,WE,R030-1-WE,Hillcrest Row,1
+R031,WD,R031-0-WD,Lakeside Cemetery,0
+R031,WD,R031-1-WD,Hillcrest Hospital,1
+R031,WE,R031-0-WE,Lakeside Cemetery,0
+R031,WE,R031-1-WE,Hillcrest Hospital,1
+R032,WD,R032-0-WD,Hillcrest Baths 2,0
+R032,WD,R032-1-WD,Brickworks Gate,1
+R032,WE,R032-0-WE,Hillcrest Baths 2,0
+R032,WE,R032-1-WE,Brickworks Gate,1
+R033,WD,R033-0-WD,Foundry Works,0
+R033,WD,R033-1-WD,Fairmount Hollow,1
+R033,WE,R033-0-WE,Foundry Works,0
+R033,WE,R033-1-WE,Fairmount Hollow,1
+R034,WD,R034-0-WD,Steelyard Stadium,0
+R034,WD,R034-1-WD,Vinegrove Chapel,1
+R034,WE,R034-0-WE,Steelyard Stadium,0
+R034,WE,R034-1-WE,Vinegrove Chapel,1
+R035,WD,R035-0-WD,Greenfield Circus,0
+R035,WD,R035-1-WD,Harborside Tower,1
+R035,WE,R035-0-WE,Greenfield Circus,0
+R035,WE,R035-1-WE,Harborside Tower,1
+R036,WD,R036-0-WD,Harborside Hospital,0
+R036,WD,R036-1-WD,Westbridge Museum 2,1
+R036,WE,R036-0-WE,Harborside Hospital,0
+R036,WE,R036-1-WE,Westbridge Museum 2,1
+R037,WD,R037-0-WD,Brickworks Junction,0
+R037,WD,R037-1-WD,Westbridge Terminal 4,1
+R037,WE,R037-0-WE,Brickworks Junction,0
+R037,WE,R037-1-WE,Westbridge Terminal 4,1
+R038,WD,R038-0-WD,Kestrel Park Tower,0
+R038,WD,R038-1-WD,Riverside Stadium,1
+R039,WD,R039-0-WD,Riverside Court,0
+R039,WD,R039-1-WD,Junction Park,1
+R039,WE,R039-0-WE,Riverside Court,0
+R039,WE,R039-1-WE,Junction Park,1
+R040,WD,R040-0-WD,Harborside Works,0
+R040,WD,R040-1-WD,Greenfield Cemetery,1
+R041,WD,R041-0-WD,Foundry Baths 2,0
+R041,WD,R041-1-WD,Westbridge Junction 2,1
+R041,WE,R041-0-WE,Foundry Baths 2,0
+R041,WE,R041-1-WE,Westbridge Junction 2,1
+R042,WD,R042-0-WD,Fairmount School,0
+R042,WD,R042-1-WD,Foundry Court 3,1
+R042,WE,R042-0-WE,Fairmount School,0
+R042,WE,R042-1-WE,Foundry Court 3,1
+R043,WD,R043-0-WD,Harborside Museum,0
+R043,WD,R043-1-WD,Fairmount Terminal,1
+R044,WD,R044-0-WD,Brickworks Yard 2,0
+R044,WD,R044-1-WD,Steelyard Exchange,1
+R044,WE,R044-0-WE,Brickworks Yard 2,0
+R044,WE,R044-1-WE,Steelyard Exchange,1
+R045,WD,R045-0-WD,Southgate Steps 2,0
+R045,WD,R045-1-WD,Marsh End Crossing 3,1
+R045,WE,R045-0-WE,Southgate Steps 2,0
+R045,WE,R045-1-WE,Marsh End Crossing 3,1
+R046,WD,R046-0-WD,Greenfield Works,0
+R046,WD,R046-1-WD,Harborside Museum 2,1
+R046,WE,R046-0-WE,Greenfield Works,0
+R046,WE,R046-1-WE,Harborside Museum 2,1
+R047,WD,R047-0-WD,Oldtown Museum 2,0
+R047,WD,R047-1-WD,Fairmount Crossing 2,1
+R048,WD,R048-0-WD,Marsh End Depot 4,0
+R048,WD,R048-1-WD,Southgate Museum 2,1
+R048,WE,R048-0-WE,Marsh End Depot 4,0
+R048,WE,R048-1-WE,Southgate Museum 2,1
+R049,WD,R049-0-WD,Harborside Steps 2,0
+R049,WD,R049-1-WD,Foundry Stadium 2,1
+R050,WD,R050-0-WD,Marsh End Library 2,0
+R050,WD,R050-1-WD,Steelyard Tower,1
+R050,WE,R050-0-WE,Marsh End Library 2,0
+R050,WE,R050-1-WE,Steelyard Tower,1
+R051,WD,R051-0-WD,Kestrel Park Granary,0
+R051,WD,R051-1-WD,Foundry Barracks,1
+R051,WE,R051-0-WE,Kestrel Park Granary,0
+R051,WE,R051-1-WE,Foundry Barracks,1
+R052,WD,R052-0-WD,Foundry Halt,0
+R052,WD,R052-1-WD,Vinegrove Cemetery 2,1
+R052,WE,R052-0-WE,Foundry Halt,0
+R052,WE,R052-1-WE,Vinegrove Cemetery 2,1
+R053,WD,R053-0-WD,Junction Quay,0
+R053,WD,R053-1-WD,Steelyard Park,1
+R053,WE,R053-0-WE,Junction Quay,0
+R053,WE,R053-1-WE,Steelyard Park,1
+R054,WD,R054-0-WD,Junction Hollow,0
+R054,WD,R054-1-WD,Northgate Hospital 5,1
+R054,WE,R054-0-WE,Junction Hollow,0
+R054,WE,R054-1-WE,Northgate Hospital 5,1
+R055,WD,R055-0-WD,Westbridge Rise 5,0
+R055,WD,R055-1-WD,Junction Fountain,1
+R055,WE,R055-0-WE,Westbridge Rise 5,0
+R055,WE,R055-1-WE,Junction Fountain,1
+R056,WD,R056-0-WD,Brickworks Hospital 3,0
+R056,WD,R056-1-WD,Kestrel Park Terminal,1
+R056,WE,R056-0-WE,Brickworks Hospital 3,0
+R056,WE,R056-1-WE,Kestrel Park Terminal,1
+R057,WD,R057-0-WD,Marsh End Crossing 5,0
+R057,WD,R057-1-WD,Hillcrest Tower 2,1
+R057,WE,R057-0-WE,Marsh End Crossing 5,0
+R057,WE,R057-1-WE,Hillcrest Tower 2,1
+R058,WD,R058-0-WD,Brickworks Court 2,0
+R058,WD,R058-1-WD,Riverside Bridge,1
+R058,WE,R058-0-WE,Brickworks Court 2,0
+R058,WE,R058-1-WE,Riverside Bridge,1
+R059,WD,R059-0-WD,Kestrel Park Depot 2,0
+R059,WD,R059-1-WD,Junction Junction,1
+R059,WE,R059-0-WE,Kestrel Park Depot 2,0
+R059,WE,R059-1-WE,Junction Junction,1
+R060,WD,R060-0-WD,Brickworks Crossing 2,0
+R060,WD,R060-1-WD,Westbridge Granary 2,1
+R061,WD,R061-0-WD,Foundry Halt,0
+R061,WD,R061-1-WD,Lakeside Park 2,1
+R061,WE,R061-0-WE,Foundry Halt,0
+R061,WE,R061-1-WE,Lakeside Park 2,1
+R062,WD,R062-0-WD,Foundry Hollow 5,0
+R062,WD,R062-1-WD,Alder Lane,1
+R062,WE,R062-0-WE,Foundry Hollow 5,0
+R062,WE,R062-1-WE,Alder Lane,1
+R063,WD,R063-0-WD,Foundry Rise 2,0
+R063,WD,R063-1-WD,Lakeside Hospital 2,1
+R063,WE,R063-0-WE,Foundry Rise 2,0
+R063,WE,R063-1-WE,Lakeside Hospital 2,1
+R064,WD,R064-0-WD,Southgate Priory 3,0
+R064,WD,R064-1-WD,Junction Hospital 2,1
+R064,WE,R064-0-WE,Southgate Priory 3,0
+R064,WE,R064-1-WE,Junction Hospital 2,1
+R065,WD,R065-0-WD,Brickworks Terminal 2,0
+R065,WD,R065-1-WD,Steelyard Museum 2,1
+R065,WE,R065-0-WE,Brickworks Terminal 2,0
+R065,WE,R065-1-WE,Steelyard Museum 2,1
+R066,WD,R066-0-WD,Hillcrest Court 3,0
+R066,WD,R066-1-WD,Fairmount Halt 3,1
+R066,WE,R066-0-WE,Hillcrest Court 3,0
+R066,WE,R066-1-WE,Fairmount Halt 3,1
+R067,WD,R067-0-WD,Junction Library 2,0
+R067,WD,R067-1-WD,Oldtown Granary 2,1
+R067,WE,R067-0-WE,Junction Library 2,0
+R067,WE,R067-1-WE,Oldtown Granary 2,1
+R068,WD,R068-0-WD,Marsh End Depot 2,0
+R068,WD,R068-1-WD,Hillcrest Mill 2,1
+R069,WD,R069-0-WD,Brickworks School 5,0
+R069,WD,R069-1-WD,Hillcrest Terminal 3,1
+R070,WD,R070-0-WD,Kestrel Park Works 2,0
+R070,WD,R070-1-WD,Riverside Market,1
+R070,WE,R070-0-WE,Kestrel Park Works 2,0
+R070,WE,R070-1-WE,Riverside Market,1
+R071,WD,R071-0-WD,Foundry Junction 4,0
+R071,WD,R071-1-WD,Junction Priory 2,1
+R071,WE,R071-0-WE,Foundry Junction 4,0
+R071,WE,R071-1-WE,Junction Priory 2,1
+R072,WD,R072-0-WD,Foundry Depot 3,0
+R072,WD,R072-1-WD,Oldtown Park 3,1
+R072,WE,R072-0-WE,Foundry Depot 3,0
+R072,WE,R072-1-WE,Oldtown Park 3,1
+R073,WD,R073-0-WD,Brickworks Green 4,0
+R073,WD,R073-1-WD,Hillcrest Fountain 4,1
+R074,WD,R074-0-WD,Hazel Avenue,0
+R074,WD,R074-1-WD,Westbridge Chapel 2,1
+R074,WE,R074-0-WE,Hazel Avenue,0
+R074,WE,R074-1-WE,Westbridge Chapel 2,1
+R075,WD,R075-0-WD,Vinegrove Priory 2,0
+R075,WD,R075-1-WD,Harborside Row 3,1
+R076,WD,R076-0-WD,Foundry Works 2,0
+R076,WD,R076-1-WD,Elmwood Works 2,1
+R076,WE,R076-0-WE,Foundry Works 2,0
+R076,WE,R076-1-WE,Elmwood Works 2,1
+R077,WD,R077-0-WD,Hillcrest Junction 5,0
+R077,WD,R077-1-WD,Steelyard Gate 3,1
+R077,WE,R077-0-WE,Hillcrest Junction 5,0
+R077,WE,R077-1-WE,Steelyard Gate 3,1
+R078,WD,R078-0-WD,Hillcrest Baths 3,0
+R078,WD,R078-1-WD,Northgate Museum 3,1
+R078,WE,R078-0-WE,Hillcrest Baths 3,0
+R078,WE,R078-1-WE,Northgate Museum 3,1
+R079,WD,R079-0-WD,Riverside Rise,0
+R079,WD,R079-1-WD,Northgate Chapel 4,1
+R080,WD,R080-0-WD,Elmwood Row 5,0
+R080,WD,R080-1-WD,Westbridge Stadium,1
+R081,WD,R081-0-WD,Walnut Avenue,0
+R081,WD,R081-1-WD,Marsh End Barracks 4,1
+R081,WE,R081-0-WE,Walnut Avenue,0
+R081,WE,R081-1-WE,Marsh End Barracks 4,1
+R082,WD,R082-0-WD,Steelyard Bridge 2,0
+R082,WD,R082-1-WD,Marsh End Priory 4,1
+R082,WE,R082-0-WE,Steelyard Bridge 2,0
+R082,WE,R082-1-WE,Marsh End Priory 4,1
+R083,WD,R083-0-WD,Hillcrest Works 3,0
+R083,WD,R083-1-WD,Greenfield Hospital,1
+R083,WE,R083-0-WE,Hillcrest Works 3,0
+R083,WE,R083-1-WE,Greenfield Hospital,1
+R084,WD,R084-0-WD,Northgate Court 2,0
+R084,WD,R084-1-WD,Foundry Cemetery 4,1
+R084,WE,R084-0-WE,Northgate Court 2,0
+R084,WE,R084-1-WE,Foundry Cemetery 4,1
+R085,WD,R085-0-WD,Northgate Chapel 5,0
+R085,WD,R085-1-WD,Fairmount Chapel 2,1
+R085,WE,R085-0-WE,Northgate Chapel 5,0
+R085,WE,R085-1-WE,Fairmount Chapel 2,1
+R086,WD,R086-0-WD,Harborside Tower 2,0
+R086,WD,R086-1-WD,Poplar Crescent,1
+R086,WE,R086-0-WE,Harborside Tower 2,0
+R086,WE,R086-1-WE,Poplar Crescent,1
+R087,WD,R087-0-WD,Junction Wharf 2,0
+R087,WD,R087-1-WD,Southgate Museum 4,1
+R087,WE,R087-0-WE,Junction Wharf 2,0
+R087,WE,R087-1-WE,Southgate Museum 4,1
+R088,WD,R088-0-WD,Vinegrove Chapel 4,0
+R088,WD,R088-1-WD,Kestrel Park Depot,1
+R088,WE,R088-0-WE,Vinegrove Chapel 4,0
+R088,WE,R088-1-WE,Kestrel Park Depot,1
+R089,WD,R089-0-WD,Brickworks Court 2,0
+R089,WD,R089-1-WD,Kestrel Park School 4,1
+R090,WD,R090-0-WD,Riverside Steps,0
+R090,WD,R090-1-WD,Brickworks Museum 3,1
+R091,WD,R091-0-WD,Junction Market 5,0
+R091,WD,R091-1-WD,Foundry Arcade 4,1
+R091,WE,R091-0-WE,Junction Market 5,0
+R091,WE,R091-1-WE,Foundry Arcade 4,1
+R092,WD,R092-0-WD,Westbridge Quay 5,0
+R092,WD,R092-1-WD,Fairmount Chapel 3,1
+R092,WE,R092-0-WE,Westbridge Quay 5,0
+R092,WE,R092-1-WE,Fairmount Chapel 3,1
+R093,WD,R093-0-WD,Riverside Cemetery,0
+R093,WD,R093-1-WD,Oldtown Halt 3,1
+R093,WE,R093-0-WE,Riverside Cemetery,0
+R093,WE,R093-1-WE,Oldtown Halt 3,1
+R094,WD,R094-0-WD,Pine Crescent,0
+R094,WD,R094-1-WD,Kestrel Park Terminal,1
+R094,WE,R094-0-WE,Pine Crescent,0
+R094,WE,R094-1-WE,Kestrel Park Terminal,1
+R095,WD,R095-0-WD,Hillcrest Green 3,0
+R095,WD,R095-1-WD,Steelyard Quay 2,1
+R095,WE,R095-0-WE,Hillcrest Green 3,0
+R095,WE,R095-1-WE,Steelyard Quay 2,1
+R096,WD,R096-0-WD,Kestrel Park Yard,0
+R096,WD,R096-1-WD,Foundry Green,1
+R096,WE,R096-0-WE,Kestrel Park Yard,0
+R096,WE,R096-1-WE,Foundry Green,1
+R097,WD,R097-0-WD,Marsh End Wharf,0
+R097,WD,R097-1-WD,Vinegrove Steps 2,1
+R097,WE,R097-0-WE,Marsh End Wharf,0
+R097,WE,R097-1-WE,Vinegrove Steps 2,1
+R098,WD,R098-0-WD,Junction Hospital 4,0
+R098,WD,R098-1-WD,Lakeside Circus 2,1
+R098,WE,R098-0-WE,Junction Hospital 4,0
+R098,WE,R098-1-WE,Lakeside Circus 2,1
+R099,WD,R099-0-WD,Lakeside Circus 3,0
+R099,WD,R099-1-WD,Foundry Halt 4,1
+R099,WE,R099-0-WE,Lakeside Circus 3,0
+R099,WE,R099-1-WE,Foundry Halt 4,1
+R100,WD,R100-0-WD,Vinegrove Fields 4,0
+R100,WD,R100-1-WD,Kestrel Park School 5,1
+R100,WE,R100-0-WE,Vinegrove Fields 4,0
+R100,WE,R100-1-WE,Kestrel Park School 5,1
+R101,WD,R101-0-WD,Elmwood Quay 3,0
+R101,WD,R101-1-WD,Northgate Bridge 4,1
+R101,WE,R101-0-WE,Elmwood Quay 3,0
+R101,WE,R101-1-WE,Northgate Bridge 4,1
+R102,WD,R102-0-WD,Junction Gate 5,0
+R102,WD,R102-1-WD,Lakeside Hollow 2,1
+R102,WE,R102-0-WE,Junction Gate 5,0
+R102,WE,R102-1-WE,Lakeside Hollow 2,1
+R103,WD,R103-0-WD,Northgate Court 4,0
+R103,WD,R103-1-WD,Elm Avenue,1
+R103,WE,R103-0-WE,Northgate Court 4,0
+R103,WE,R103-1-WE,Elm Avenue,1
+R104,WD,R104-0-WD,Junction Chapel 2,0
+R104,WD,R104-1-WD,Hillcrest Circus,1
+R104,WE,R104-0-WE,Junction Chapel 2,0
+R104,WE,R104-1-WE,Hillcrest Circus,1
+R105,WD,R105-0-WD,Kestrel Park Steps 3,0
+R105,WD,R105-1-WD,Hillcrest Baths 5,1
+R105,WE,R105-0-WE,Kestrel Park Steps 3,0
+R105,WE,R105-1-WE,Hillcrest Baths 5,1
+R106,WD,R106-0-WD,Foundry Fountain 3,0
+R106,WD,R106-1-WD,Kestrel Park Locks 2,1
+R106,WE,R106-0-WE,Foundry Fountain 3,0
+R106,WE,R106-1-WE,Kestrel Park Locks 2,1
+R107,WD,R107-0-WD,Greenfield Cemetery 3,0
+R107,WD,R107-1-WD,Hillcrest Rise 7,1
+R107,WE,R107-0-WE,Greenfield Cemetery 3,0
+R107,WE,R107-1-WE,Hillcrest Rise 7,1
+R108,WD,R108-0-WD,Lakeside Fountain 2,0
+R108,WD,R108-1-WD,Harborside Museum 3,1
+R108,WE,R108-0-WE,Lakeside Fountain 2,0
+R108,WE,R108-1-WE,Harborside Museum 3,1
+R109,WD,R109-0-WD,Riverside Exchange 2,0
+R109,WD,R109-1-WD,Westbridge Fields 4,1
+R109,WE,R109-0-WE,Riverside Exchange 2,0
+R109,WE,R109-1-WE,Westbridge Fields 4,1
+R110,WD,R110-0-WD,Brickworks Halt 4,0
+R110,WD,R110-1-WD,Hillcrest Stadium 2,1
+R111,WD,R111-0-WD,Oldtown Tower 5,0
+R111,WD,R111-1-WD,Foundry Crossing 4,1
+R111,WE,R111-0-WE,Oldtown Tower 5,0
+R111,WE,R111-1-WE,Foundry Crossing 4,1
+R112,WD,R112-0-WD,Harborside Park,0
+R112,WD,R112-1-WD,Fairmount Terminal 2,1
+R112,WE,R112-0-WE,Harborside Park,0
+R112,WE,R112-1-WE,Fairmount Terminal 2,1
+R113,WD,R113-0-WD,Southgate Row 2,0
+R113,WD,R113-1-WD,Harborside Depot 4,1
+R113,WE,R113-0-WE,Southgate Row 2,0
+R113,WE,R113-1-WE,Harborside Depot 4,1
+R114,WD,R114-0-WD,Junction Chapel 3,0
+R114,WD,R114-1-WD,Foundry Steps 7,1
+R114,WE,R114-0-WE,Junction Chapel 3,0
+R114,WE,R114-1-WE,Foundry Steps 7,1
+R115,WD,R115-0-WD,Westbridge Court 5,0
+R115,WD,R115-1-WD,Brickworks Museum 7,1
+R115,WE,R115-0-WE,Westbridge Court 5,0
+R115,WE,R115-1-WE,Brickworks Museum 7,1
+R116,WD,R116-0-WD,Foundry Bridge 7,0
+R116,WD,R116-1-WD,Harborside Gate 2,1
+R116,WE,R116-0-WE,Foundry Bridge 7,0
+R116,WE,R116-1-WE,Harborside Gate 2,1
+R117,WD,R117-0-WD,Vinegrove Market 5,0
+R117,WD,R117-1-WD,Greenfield Green 2,1
+R118,WD,R118-0-WD,Southgate Fountain 2,0
+R118,WD,R118-1-WD,Marsh End Quay 3,1
+R118,WE,R118-0-WE,Southgate Fountain 2,0
+R118,WE,R118-1-WE,Marsh End Quay 3,1
+R119,WD,R119-0-WD,Kestrel Park Market 5,0
+R119,WD,R119-1-WD,Marsh End Bridge 6,1
+R119,WE,R119-0-WE,Kestrel Park Market 5,0
+R119,WE,R119-1-WE,Marsh End Bridge 6,1
+R120,WD,R120-0-WD,Hillcrest Granary,0
+R120,WD,R120-1-WD,Harborside Arcade 4,1
+R121,WD,R121-0-WD,Harborside Yard 4,0
+R121,WD,R121-1-WD,Southgate Cemetery 2,1
+R121,WE,R121-0-WE,Harborside Yard 4,0
+R121,WE,R121-1-WE,Southgate Cemetery 2,1
+R122,WD,R122-0-WD,Vinegrove Fountain,0
+R122,WD,R122-1-WD,Lakeside Library 3,1
+R122,WE,R122-0-WE,Vinegrove Fountain,0
+R122,WE,R122-1-WE,Lakeside Library 3,1
+R123,WD,R123-0-WD,Marsh End Steps 2,0
+R123,WD,R123-1-WD,Brickworks School 7,1
+R123,WE,R123-0-WE,Marsh End Steps 2,0
+R123,WE,R123-1-WE,Brickworks School 7,1
+R124,WD,R124-0-WD,Riverside Green 3,0
+R124,WD,R124-1-WD,Westbridge Common 6,1
+R124,WE,R124-0-WE,Riverside Green 3,0
+R124,WE,R124-1-WE,Westbridge Common 6,1
+R125,WD,R125-0-WD,Vinegrove Halt 5,0
+R125,WD,R125-1-WD,Greenfield Park 2,1
+R125,WE,R125-0-WE,Vinegrove Halt 5,0
+R125,WE,R125-1-WE,Greenfield Park 2,1
+R126,WD,R126-0-WD,Brickworks Stadium 4,0
+R126,WD,R126-1-WD,Northgate Circus 5,1
+R126,WE,R126-0-WE,Brickworks Stadium 4,0
+R126,WE,R126-1-WE,Northgate Circus 5,1
+R127,WD,R127-0-WD,Harborside Yard 5,0
+R127,WD,R127-1-WD,Fairmount Barracks 2,1
+R128,WD,R128-0-WD,Vinegrove Exchange 6,0
+R128,WD,R128-1-WD,Kestrel Park Junction 3,1
+R128,WE,R128-0-WE,Vinegrove Exchange 6,0
+R128,WE,R128-1-WE,Kestrel Park Junction 3,1
+R129,WD,R129-0-WD,Marsh End Quay 6,0
+R129,WD,R129-1-WD,Northgate Gate 4,1
+R129,WE,R129-0-WE,Marsh End Quay 6,0
+R129,WE,R129-1-WE,Northgate Gate 4,1
+R130,WD,R130-0-WD,Harborside Green,0
+R130,WD,R130-1-WD,Lakeside Crossing 4,1
+R130,WE,R130-0-WE,Harborside Green,0
+R130,WE,R130-1-WE,Lakeside Crossing 4,1
+R131,WD,R131-0-WD,Hillcrest Junction 7,0
+R131,WD,R131-1-WD,Greenfield Park 2,1
+R131,WE,R131-0-WE,Hillcrest Junction 7,0
+R131,WE,R131-1-WE,Greenfield Park 2,1
+R132,WD,R132-0-WD,Steelyard Hollow 2,0
+R132,WD,R132-1-WD,Brickworks Baths 9,1
+R132,WE,R132-0-WE,Steelyard Hollow 2,0
+R132,WE,R132-1-WE,Brickworks Baths 9,1
+R133,WD,R133-0-WD,Harborside Halt 4,0
+R133,WD,R133-1-WD,Lakeside Cemetery,1
+R133,WE,R133-0-WE,Harborside Halt 4,0
+R133,WE,R133-1-WE,Lakeside Cemetery,1
+R134,WD,R134-0-WD,Marsh End Gate 6,0
+R134,WD,R134-1-WD,Foundry Park,1
+R134,WE,R134-0-WE,Marsh End Gate 6,0
+R134,WE,R134-1-WE,Foundry Park,1
+R135,WD,R135-0-WD,Brickworks Fields 3,0
+R135,WD,R135-1-WD,Kestrel Park Wharf 5,1
+R135,WE,R135-0-WE,Brickworks Fields 3,0
+R135,WE,R135-1-WE,Kestrel Park Wharf 5,1
+R136,WD,R136-0-WD,Southgate Hollow 3,0
+R136,WD,R136-1-WD,Greenfield Fountain 3,1
+R136,WE,R136-0-WE,Southgate Hollow 3,0
+R136,WE,R136-1-WE,Greenfield Fountain 3,1
+R137,WD,R137-0-WD,Vinegrove Cemetery 6,0
+R137,WD,R137-1-WD,Lakeside Halt 4,1
+R137,WE,R137-0-WE,Vinegrove Cemetery 6,0
+R137,WE,R137-1-WE,Lakeside Halt 4,1
+R138,WD,R138-0-WD,Lakeside Locks 4,0
+R138,WD,R138-1-WD,Harborside Bridge 3,1
+R138,WE,R138-0-WE,Lakeside Locks 4,0
+R138,WE,R138-1-WE,Harborside Bridge 3,1
+R139,WD,R139-0-WD,Marsh End Green 5,0
+R139,WD,R139-1-WD,Riverside Hollow 2,1
+R139,WE,R139-0-WE,Marsh End Green 5,0
+R139,WE,R139-1-WE,Riverside Hollow 2,1
+R140,WD,R140-0-WD,Fairmount Chapel,0
+R140,WD,R140-1-WD,Greenfield Green 3,1
+R140,WE,R140-0-WE,Fairmount Chapel,0
+R140,WE,R140-1-WE,Greenfield Green 3,1
+R141,WD,R141-0-WD,Foundry Halt,0
+R141,WD,R141-1-WD,Fairmount Library 3,1
+R141,WE,R141-0-WE,Foundry Halt,0
+R141,WE,R141-1-WE,Fairmount Library 3,1
+R142,WD,R142-0-WD,Hillcrest Crossing 2,0
+R142,WD,R142-1-WD,Steelyard Cemetery 3,1
+R142,WE,R142-0-WE,Hillcrest Crossing 2,0
+R142,WE,R142-1-WE,Steelyard Cemetery 3,1
+R143,WD,R143-0-WD,Northgate Steps 2,0
+R143,WD,R143-1-WD,Beech Street,1
+R143,WE,R143-0-WE,Northgate Steps 2,0
+R143,WE,R143-1-WE,Beech Street,1
+R144,WD,R144-0-WD,Foundry Arcade 6,0
+R144,WD,R144-1-WD,Marsh End Chapel 7,1
+R145,WD,R145-0-WD,Lakeside Crossing 7,0
+R145,WD,R145-1-WD,Vinegrove Park 6,1
+R145,WE,R145-0-WE,Lakeside Crossing 7,0
+R145,WE,R145-1-WE,Vinegrove Park 6,1
+R146,WD,R146-0-WD,Harborside Cemetery 2,0
+R146,WD,R146-1-WD,Fairmount Chapel 5,1
+R146,WE,R146-0-WE,Harborside Cemetery 2,0
+R146,WE,R146-1-WE,Fairmount Chapel 5,1
+R147,WD,R147-0-WD,Marsh End Bridge 7,0
+R147,WD,R147-1-WD,Lakeside Terminal 7,1
+R148,WD,R148-0-WD,Southgate Common 2,0
+R148,WD,R148-1-WD,Cedar Lane,1
+R148,WE,R148-0-WE,Southgate Common 2,0
+R148,WE,R148-1-WE,Cedar Lane,1
+R149,WD,R149-0-WD,Northgate Junction 7,0
+R149,WD,R149-1-WD,Vinegrove Yard 7,1
+R149,WE,R149-0-WE,Northgate Junction 7,0
+R149,WE,R149-1-WE,Vinegrove Yard 7,1
+R150,WD,R150-0-WD,Junction Depot 4,0
+R150,WD,R150-1-WD,Lakeside Crossing 8,1
+R151,WD,R151-0-WD,Junction Hollow 3,0
+R151,WD,R151-1-WD,Vinegrove Hollow 6,1
+R151,WE,R151-0-WE,Junction Hollow 3,0
+R151,WE,R151-1-WE,Vinegrove Hollow 6,1
+R152,WD,R152-0-WD,Lakeside Fields 3,0
+R152,WD,R152-1-WD,Harborside Depot 7,1
+R153,WD,R153-0-WD,Kestrel Park Cemetery,0
+R153,WD,R153-1-WD,Vinegrove Works 3,1
+R153,WE,R153-0-WE,Kestrel Park Cemetery,0
+R153,WE,R153-1-WE,Vinegrove Works 3,1
+R154,WD,R154-0-WD,Riverside Park 2,0
+R154,WD,R154-1-WD,Greenfield Chapel 3,1
+R154,WE,R154-0-WE,Riverside Park 2,0
+R154,WE,R154-1-WE,Greenfield Chapel 3,1
+R155,WD,R155-0-WD,Marsh End Steps,0
+R155,WD,R155-1-WD,Kestrel Park Market 5,1
+R155,WE,R155-0-WE,Marsh End Steps,0
+R155,WE,R155-1-WE,Kestrel Park Market 5,1
+R156,WD,R156-0-WD,Foundry Quay 8,0
+R156,WD,R156-1-WD,Marsh End School 4,1
+R156,WE,R156-0-WE,Foundry Quay 8,0
+R156,WE,R156-1-WE,Marsh End School 4,1
+R157,WD,R157-0-WD,Junction Yard 2,0
+R157,WD,R157-1-WD,Southgate Mill 3,1
+R158,WD,R158-0-WD,Greenfield Granary 3,0
+R158,WD,R158-1-WD,Vinegrove Quay 5,1
+R158,WE,R158-0-WE,Greenfield Granary 3,0
+R158,WE,R158-1-WE,Vinegrove Quay 5,1
+R159,WD,R159-0-WD,Foundry Gate 7,0
+R159,WD,R159-1-WD,Elmwood Museum 3,1
+R159,WE,R159-0-WE,Foundry Gate 7,0
+R159,WE,R159-1-WE,Elmwood Museum 3,1
+R160,WD,R160-0-WD,Kestrel Park Hospital 7,0
+R160,WD,R160-1-WD,Marsh End Crossing 5,1
+R160,WE,R160-0-WE,Kestrel Park Hospital 7,0
+R160,WE,R160-1-WE,Marsh End Crossing 5,1
+R161,WD,R161-0-WD,Southgate Crossing 3,0
+R161,WD,R161-1-WD,Vinegrove Terminal 6,1
+R161,WE,R161-0-WE,Southgate Crossing 3,0
+R161,WE,R161-1-WE,Vinegrove Terminal 6,1
+R162,WD,R162-0-WD,Riverside Depot 2,0
+R162,WD,R162-1-WD,Harborside Common 7,1
+R163,WD,R163-0-WD,Harborside Fields 4,0
+R163,WD,R163-1-WD,Lakeside Depot 4,1
+R163,WE,R163-0-WE,Harborside Fields 4,0
+R163,WE,R163-1-WE,Lakeside Depot 4,1
+R164,WD,R164-0-WD,Brickworks Bridge 4,0
+R164,WD,R164-1-WD,Elmwood Baths 2,1
+R164,WE,R164-0-WE,Brickworks Bridge 4,0
+R164,WE,R164-1-WE,Elmwood Baths 2,1
+R165,WD,R165-0-WD,Southgate Stadium 5,0
+R165,WD,R165-1-WD,Junction Stadium 3,1
+R165,WE,R165-0-WE,Southgate Stadium 5,0
+R165,WE,R165-1-WE,Junction Stadium 3,1
+R166,WD,R166-0-WD,Lakeside Crossing 3,0
+R166,WD,R166-1-WD,Brickworks Circus 3,1
+R167,WD,R167-0-WD,Linden Street,0
+R167,WD,R167-1-WD,Brickworks Works 5,1
+R168,WD,R168-0-WD,Junction Market 7,0
+R168,WD,R168-1-WD,Hillcrest Hollow 5,1
+R168,WE,R168-0-WE,Junction Market 7,0
+R168,WE,R168-1-WE,Hillcrest Hollow 5,1
+R169,WD,R169-0-WD,Foundry Bridge 9,0
+R169,WD,R169-1-WD,Kestrel Park Stadium 7,1
+R169,WE,R169-0-WE,Foundry Bridge 9,0
+R169,WE,R169-1-WE,Kestrel Park Stadium 7,1
+R170,WD,R170-0-WD,Oldtown Granary 2,0
+R170,WD,R170-1-WD,Junction Row 3,1
+R170,WE,R170-0-WE,Oldtown Granary 2,0
+R170,WE,R170-1-WE,Junction Row 3,1
+R171,WD,R171-0-WD,Vinegrove Park 10,0
+R171,WD,R171-1-WD,Lakeside Green 5,1
+R171,WE,R171-0-WE,Vinegrove Park 10,0
+R171,WE,R171-1-WE,Lakeside Green 5,1
+R172,WD,R172-0-WD,Southgate Park 2,0
+R172,WD,R172-1-WD,Junction Exchange 6,1
+R173,WD,R173-0-WD,Hillcrest Mill 9,0
+R173,WD,R173-1-WD,Greenfield Priory 4,1
+R174,WD,R174-0-WD,Junction Junction 6,0
+R174,WD,R174-1-WD,Lakeside Exchange 3,1
+R174,WE,R174-0-WE,Junction Junction 6,0
+R174,WE,R174-1-WE,Lakeside Exchange 3,1
+R175,WD,R175-0-WD,Brickworks Green 6,0
+R175,WD,R175-1-WD,Southgate Hospital 4,1
+R175,WE,R175-0-WE,Brickworks Green 6,0
+R175,WE,R175-1-WE,Southgate Hospital 4,1
+R176,WD,R176-0-WD,Hillcrest Rise 10,0
+R176,WD,R176-1-WD,Northgate Common 3,1
+R176,WE,R176-0-WE,Hillcrest Rise 10,0
+R176,WE,R176-1-WE,Northgate Common 3,1
+R177,WD,R177-0-WD,Kestrel Park Hollow 8,0
+R177,WD,R177-1-WD,Harborside Depot 8,1
+R178,WD,R178-0-WD,Westbridge Hollow 2,0
+R178,WD,R178-1-WD,Junction Quay 2,1
+R178,WE,R178-0-WE,Westbridge Hollow 2,0
+R178,WE,R178-1-WE,Junction Quay 2,1
+R179,WD,R179-0-WD,Northgate Fountain 6,0
+R179,WD,R179-1-WD,Vinegrove Junction 6,1
+R179,WE,R179-0-WE,Northgate Fountain 6,0
+R179,WE,R179-1-WE,Vinegrove Junction 6,1
+R180,WD,R180-0-WD,Junction Works 3,0
+R180,WD,R180-1-WD,Kestrel Park Circus 5,1
+R180,WE,R180-0-WE,Junction Works 3,0
+R180,WE,R180-1-WE,Kestrel Park Circus 5,1
+R181,WD,R181-0-WD,Junction Common,0
+R181,WD,R181-1-WD,Southgate Terminal 6,1
+R181,WE,R181-0-WE,Junction Common,0
+R181,WE,R181-1-WE,Southgate Terminal 6,1
+R182,WD,R182-0-WD,Harborside Hospital 4,0
+R182,WD,R182-1-WD,Brickworks Junction 7,1
+R182,WE,R182-0-WE,Harborside Hospital 4,0
+R182,WE,R182-1-WE,Brickworks Junction 7,1
+R183,WD,R183-0-WD,Kestrel Park Hollow 4,0
+R183,WD,R183-1-WD,Harborside Rise 5,1
+R184,WD,R184-0-WD,Riverside Chapel 2,0
+R184,WD,R184-1-WD,Westbridge Granary 4,1
+R184,WE,R184-0-WE,Riverside Chapel 2,0
+R184,WE,R184-1-WE,Westbridge Granary 4,1
+R185,WD,R185-0-WD,Vinegrove Exchange 10,0
+R185,WD,R185-1-WD,Southgate Crossing 4,1
+R185,WE,R185-0-WE,Vinegrove Exchange 10,0
+R185,WE,R185-1-WE,Southgate Crossing 4,1
+R186,WD,R186-0-WD,Riverside Depot 3,0
+R186,WD,R186-1-WD,Hillcrest Halt 4,1
+R186,WE,R186-0-WE,Riverside Depot 3,0
+R186,WE,R186-1-WE,Hillcrest Halt 4,1
+R187,WD,R187-0-WD,Fairmount Hollow 2,0
+R187,WD,R187-1-WD,Walnut Street,1
+R187,WE,R187-0-WE,Fairmount Hollow 2,0
+R187,WE,R187-1-WE,Walnut Street,1
+R188,WD,R188-0-WD,Vinegrove Observatory 5,0
+R188,WD,R188-1-WD,Lakeside Stadium 7,1
+R188,WE,R188-0-WE,Vinegrove Observatory 5,0
+R188,WE,R188-1-WE,Lakeside Stadium 7,1
+R189,WD,R189-0-WD,Kestrel Park Museum,0
+R189,WD,R189-1-WD,Marsh End Steps 5,1
+R189,WE,R189-0-WE,Kestrel Park Museum,0
+R189,WE,R189-1-WE,Marsh End Steps 5,1
+R190,WD,R190-0-WD,Steelyard Terminal 2,0
+R190,WD,R190-1-WD,Southgate Stadium 7,1
+R191,WD,R191-0-WD,Fairmount Chapel 6,0
+R191,WD,R191-1-WD,Harborside Halt 5,1
+R191,WE,R191-0-WE,Fairmount Chapel 6,0
+R191,WE,R191-1-WE,Harborside Halt 5,1
+R192,WD,R192-0-WD,Southgate Stadium 3,0
+R192,WD,R192-1-WD,Riverside Green 5,1
+R192,WE,R192-0-WE,Southgate Stadium 3,0
+R192,WE,R192-1-WE,Riverside Green 5,1
+R193,WD,R193-0-WD,Harborside Crossing 5,0
+R193,WD,R193-1-WD,Westbridge Tower 4,1
+R193,WE,R193-0-WE,Harborside Crossing 5,0
+R193,WE,R193-1-WE,Westbridge Tower 4,1
+R194,WD,R194-0-WD,Fairmount Museum 5,0
+R194,WD,R194-1-WD,Harborside Wharf 5,1
+R194,WE,R194-0-WE,Fairmount Museum 5,0
+R194,WE,R194-1-WE,Harborside Wharf 5,1
+R195,WD,R195-0-WD,Riverside Depot 5,0
+R195,WD,R195-1-WD,Harborside Barracks 2,1
+R196,WD,R196-0-WD,Greenfield Hospital 3,0
+R196,WD,R196-1-WD,Junction Chapel 4,1
+R196,WE,R196-0-WE,Greenfield Hospital 3,0
+R196,WE,R196-1-WE,Junction Chapel 4,1
+R197,WD,R197-0-WD,Northgate Library 6,0
+R197,WD,R197-1-WD,Junction Steps 4,1
+R197,WE,R197-0-WE,Northgate Library 6,0
+R197,WE,R197-1-WE,Junction Steps 4,1
+R198,WD,R198-0-WD,Junction Terminal 3,0
+R198,WD,R198-1-WD,Lakeside Junction 5,1
+R198,WE,R198-0-WE,Junction Terminal 3,0
+R198,WE,R198-1-WE,Lakeside Junction 5,1
+R199,WD,R199-0-WD,Lakeside Stadium 8,0
+R199,WD,R199-1-WD,Hillcrest Junction 2,1
+R200,WD,R200-0-WD,Riverside Court 3,0
+R200,WD,R200-1-WD,Harborside Bridge 6,1
+R201,WD,R201-0-WD,Lakeside Junction 6,0
+R201,WD,R201-1-WD,Harborside Halt 6,1
+R201,WE,R201-0-WE,Lakeside Junction 6,0
+R201,WE,R201-1-WE,Harborside Halt 6,1
+R202,WD,R202-0-WD,Hillcrest Common 9,0
+R202,WD,R202-1-WD,Junction Gate 7,1
+R202,WE,R202-0-WE,Hillcrest Common 9,0
+R202,WE,R202-1-WE,Junction Gate 7,1
+R203,WD,R203-0-WD,Westbridge Baths 12,0
+R203,WD,R203-1-WD,Marsh End Barracks 2,1
+R204,WD,R204-0-WD,Maple Road,0
+R204,WD,R204-1-WD,Fairmount Green 4,1
+R204,WE,R204-0-WE,Maple Road,0
+R204,WE,R204-1-WE,Fairmount Green 4,1
+R205,WD,R205-0-WD,Hillcrest Hospital 2,0
+R205,WD,R205-1-WD,Harborside Market 4,1
+R205,WE,R205-0-WE,Hillcrest Hospital 2,0
+R205,WE,R205-1-WE,Harborside Market 4,1
+R206,WD,R206-0-WD,Kestrel Park Market 5,0
+R206,WD,R206-1-WD,Marsh End Halt 3,1
+R206,WE,R206-0-WE,Kestrel Park Market 5,0
+R206,WE,R206-1-WE,Marsh End Halt 3,1
+R207,WD,R207-0-WD,Riverside Barracks 3,0
+R207,WD,R207-1-WD,Harborside Barracks 8,1
+R207,WE,R207-0-WE,Riverside Barracks 3,0
+R207,WE,R207-1-WE,Harborside Barracks 8,1
+R208,WD,R208-0-WD,Kestrel Park Court 5,0
+R208,WD,R208-1-WD,Vinegrove Halt 3,1
+R208,WE,R208-0-WE,Kestrel Park Court 5,0
+R208,WE,R208-1-WE,Vinegrove Halt 3,1
+R209,WD,R209-0-WD,Brickworks Fields 6,0
+R209,WD,R209-1-WD,Northgate Market 3,1
+R209,WE,R209-0-WE,Brickworks Fields 6,0
+R209,WE,R209-1-WE,Northgate Market 3,1
+R210,WD,R210-0-WD,Steelyard Crossing 4,0
+R210,WD,R210-1-WD,Westbridge Works 2,1
+R210,WE,R210-0-WE,Steelyard Crossing 4,0
+R210,WE,R210-1-WE,Westbridge Works 2,1
+R211,WD,R211-0-WD,Fairmount Exchange 6,0
+R211,WD,R211-1-WD,Riverside Park 5,1
+R211,WE,R211-0-WE,Fairmount Exchange 6,0
+R211,WE,R211-1-WE,Riverside Park 5,1
+R212,WD,R212-0-WD,Southgate Chapel,0
+R212,WD,R212-1-WD,Junction Works,1
+R212,WE,R212-0-WE,Southgate Chapel,0
+R212,WE,R212-1-WE,Junction Works,1
+R213,WD,R213-0-WD,Riverside Green 2,0
+R213,WD,R213-1-WD,Southgate Court 3,1
+R213,WE,R213-0-WE,Riverside Green 2,0
+R213,WE,R213-1-WE,Southgate Court 3,1
