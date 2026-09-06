@@ -217,10 +217,11 @@ function contains(ring: Ring, box: Box, point: [number, number]): boolean {
   return inside;
 }
 
+/** Twice the signed area: positive when the ring runs anticlockwise. */
 function signedArea(ring: Ring): number {
   let sum = 0;
   for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    sum += (ring[j][0] - ring[i][0]) * (ring[j][1] + ring[i][1]);
+    sum += ring[j][0] * ring[i][1] - ring[i][0] * ring[j][1];
   }
   return sum / 2;
 }
@@ -263,9 +264,9 @@ export function ringsToPolygons(
     polygon.map((ring, index) => {
       const projected = ring.map(([x, y]) => project(x, y));
       // GeoJSON wants the outline anticlockwise and its holes the other way.
-      const clockwise = signedArea(projected as Ring) > 0;
-      const wantClockwise = index > 0;
-      return clockwise === wantClockwise ? projected : projected.reverse();
+      const anticlockwise = signedArea(projected as Ring) > 0;
+      const wantAnticlockwise = index === 0;
+      return anticlockwise === wantAnticlockwise ? projected : projected.reverse();
     }),
   );
 
