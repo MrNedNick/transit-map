@@ -24,13 +24,28 @@
   feed.load();
 
   /**
-   * MapLibre is most of the JavaScript on this page and none of it is needed
-   * to read the first screen, so it is fetched alongside the feed rather than
-   * ahead of it.
+   * MapLibre is nine tenths of the JavaScript here and none of it is needed to
+   * read the first screen. Asking for it one frame after mount lets the text
+   * of the page paint first instead of queueing behind a 300 KB download.
    */
   let TransitMap = $state.raw<TransitMap | null>(null);
-  void import('./lib/components/TransitMap.svelte').then((module) => {
-    TransitMap = module.default;
+  $effect(() => {
+    let asked = false;
+    const ask = () => {
+      if (asked) return;
+      asked = true;
+      void import('./lib/components/TransitMap.svelte').then((module) => {
+        TransitMap = module.default;
+      });
+    };
+    // Normally the frame after the first paint; a tab opened in the background
+    // never paints at all, so a timer makes sure the map still turns up.
+    const frame = requestAnimationFrame(ask);
+    const timer = setTimeout(ask, 400);
+    return () => {
+      cancelAnimationFrame(frame);
+      clearTimeout(timer);
+    };
   });
 
   let mapComponent = $state<ReturnType<TransitMap> | null>(null);
