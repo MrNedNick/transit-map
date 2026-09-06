@@ -5,6 +5,8 @@
   import SavedStops from './lib/components/SavedStops.svelte';
   import Filters from './lib/components/Filters.svelte';
   import StopCard from './lib/components/StopCard.svelte';
+  import Skeleton from './lib/components/Skeleton.svelte';
+  import Notice from './lib/components/Notice.svelte';
   import TransitMap from './lib/components/TransitMap.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
@@ -112,6 +114,8 @@
       <aside class="side">
         {#if feed.network}
           <StopSearch stops={feed.network.stops} onselect={pick} />
+        {:else}
+          <Skeleton height="36px" radius="var(--radius)" />
         {/if}
 
         <Filters
@@ -120,6 +124,15 @@
           day={current.day}
           onchange={(patch) => appState.update(patch)}
         />
+
+        {#if feed.network && feed.error}
+          <Notice tone="problem" title="The timetable did not load">
+            {feed.error} The map still works, but times and reachable areas are missing.
+            {#snippet action()}
+              <button type="button" onclick={() => feed.retry()}>Try again</button>
+            {/snippet}
+          </Notice>
+        {/if}
 
         {#if details}
           <StopCard
@@ -131,8 +144,18 @@
             onminutes={(minutes) => appState.update({ minutes })}
             onclose={() => appState.update({ stopId: null })}
           />
-        {:else if selected}
-          <p class="pending">Loading the timetable for {selected.name}…</p>
+        {:else if selected || !feed.network}
+          <div class="card-skeleton">
+            <Skeleton height="17px" width="62%" />
+            <Skeleton height="12px" width="38%" />
+            <Skeleton height="30px" radius="var(--radius)" />
+            <Skeleton height="52px" radius="var(--radius)" />
+          </div>
+        {:else}
+          <Notice title="Pick a stop to start">
+            Click any dot on the map or search for a stop by name. You get the lines that
+            call there, when the next ones leave, and the area you could reach from it.
+          </Notice>
         {/if}
 
         {#if feed.network}
@@ -141,13 +164,20 @@
       </aside>
 
       <div class="canvas">
-        {#if feed.error}
+        {#if !feed.network && feed.error}
           <div class="overlay">
-            <p>{feed.error}</p>
-            <button type="button" onclick={() => feed.retry()}>Try again</button>
+            <Notice tone="problem" title="The map data did not load">
+              {feed.error}
+              {#snippet action()}
+                <button type="button" onclick={() => feed.retry()}>Try again</button>
+              {/snippet}
+            </Notice>
           </div>
         {:else if !feed.network}
-          <div class="overlay"><p>Loading {site.city}…</p></div>
+          <div class="overlay loading">
+            <Skeleton height="100%" radius="0" />
+            <p class="loading-label">Reading the {site.city} feed…</p>
+          </div>
         {:else}
           <TransitMap
             bind:this={mapComponent}
@@ -167,19 +197,36 @@
     <dl class="counts">
       <div>
         <dt>Stops in service</dt>
-        <dd>{visibleStops.length.toLocaleString('en')}</dd>
+        <dd>
+          {#if feed.timetable}{visibleStops.length.toLocaleString('en')}{:else}<Skeleton
+              width="4.5ch"
+              height="1.1rem"
+            />{/if}
+        </dd>
       </div>
       <div>
         <dt>Routes running</dt>
-        <dd>{slice ? slice.routeIds.length : (feed.network?.routes.length ?? 0)}</dd>
+        <dd>
+          {#if slice}{slice.routeIds.length}{:else}<Skeleton width="3ch" height="1.1rem" />{/if}
+        </dd>
       </div>
       <div>
         <dt>Stop times</dt>
-        <dd>{feed.timetable ? feed.timetable.stopTimeCount.toLocaleString('en') : '…'}</dd>
+        <dd>
+          {#if feed.timetable}{feed.timetable.stopTimeCount.toLocaleString('en')}{:else}<Skeleton
+              width="5ch"
+              height="1.1rem"
+            />{/if}
+        </dd>
       </div>
       <div>
         <dt>Feed parsed in</dt>
-        <dd>{feed.timings.network + feed.timings.timetable} ms</dd>
+        <dd>
+          {#if feed.timetable}{feed.timings.network + feed.timings.timetable} ms{:else}<Skeleton
+              width="5ch"
+              height="1.1rem"
+            />{/if}
+        </dd>
       </div>
     </dl>
   </section>
@@ -261,9 +308,27 @@
     color: var(--text-muted);
   }
 
-  .pending {
-    font-size: 13px;
+  .overlay.loading {
+    display: block;
+    padding: 0;
+  }
+
+  .loading-label {
+    position: absolute;
+    inset-block-end: 14px;
+    inset-inline-start: 14px;
+    font-size: 12.5px;
     color: var(--text-muted);
+  }
+
+  .card-skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 13px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface-2);
   }
 
   button {

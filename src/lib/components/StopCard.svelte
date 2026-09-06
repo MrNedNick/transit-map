@@ -5,6 +5,7 @@
   import { MODE_LABEL } from '../gtfs/types';
   import { savedStops } from '../state/saved.svelte';
   import { DAY_LABEL, DAY_PHRASE, type DayType } from '../state/url';
+  import Notice from './Notice.svelte';
   import RouteBadge from './RouteBadge.svelte';
 
   let {
@@ -72,10 +73,10 @@
         <small>computed in {Math.round(isochrone.millis)} ms</small>
       </p>
     {:else}
-      <p class="none">
+      <Notice>
         Nothing runs from here at {clock} on {DAY_PHRASE[day]}, so there is no area to
         shade. The walk is all you get.
-      </p>
+      </Notice>
     {/if}
   </section>
 
@@ -99,7 +100,7 @@
         {/each}
       </ul>
     {:else}
-      <p class="none">No line calls at this stop in the feed.</p>
+      <Notice>No line calls at this stop in the feed.</Notice>
     {/if}
   </section>
 
@@ -129,14 +130,14 @@
         time — the vehicle comes about then, not exactly then.
       </p>
     {:else if details.neverServed}
-      <p class="none">
+      <Notice>
         This stop is in the feed, but no trip calls at it. There is no timetable to show.
-      </p>
+      </Notice>
     {:else}
-      <p class="none">
+      <Notice>
         Nothing leaves this stop after {clock} on {DAY_PHRASE[day]}. Try another hour
         or another kind of day.
-      </p>
+      </Notice>
     {/if}
   </section>
 </article>
@@ -320,15 +321,6 @@
     font-size: 11.5px;
     color: var(--text-faint);
     margin-top: -4px;
-  }
-
-  .none {
-    font-size: 13px;
-    color: var(--text-muted);
-    background: var(--surface);
-    border: 1px dashed var(--border-strong);
-    border-radius: var(--radius-sm);
-    padding: 10px;
   }
 
   .footnote {

@@ -16,7 +16,13 @@ export const feedUrl = (file: string) => `${base}data/gtfs/${file}`;
 async function fetchText(file: string, signal?: AbortSignal): Promise<string> {
   const response = await fetch(feedUrl(file), { signal });
   if (!response.ok) {
-    throw new Error(`${file} could not be loaded (HTTP ${response.status})`);
+    throw new Error(`${file} could not be loaded (HTTP ${response.status}).`);
+  }
+  // A host that answers a missing file with the app's own page would otherwise
+  // send HTML into the CSV parser, and the reader would be told about a
+  // missing column instead of a missing file.
+  if (response.headers.get('content-type')?.includes('text/html')) {
+    throw new Error(`${file} is missing from this deployment.`);
   }
   return response.text();
 }

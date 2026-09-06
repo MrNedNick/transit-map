@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Notice from './Notice.svelte';
   import { savedStops } from '../state/saved.svelte';
   import type { Stop } from '../gtfs/types';
 
@@ -17,10 +18,10 @@
   </div>
 
   {#if savedStops.count === 0}
-    <p class="empty">
+    <Notice>
       Nothing saved yet. Open a stop and press <strong>Save</strong> to keep it here — the list
       stays on this device between visits.
-    </p>
+    </Notice>
   {:else}
     <ul>
       {#each savedStops.all as item (item.id)}
@@ -85,15 +86,6 @@
 
   .clear:hover {
     color: var(--danger);
-  }
-
-  .empty {
-    font-size: 13px;
-    color: var(--text-muted);
-    background: var(--surface-2);
-    border: 1px dashed var(--border-strong);
-    border-radius: var(--radius);
-    padding: 12px;
   }
 
   ul {
