@@ -15,7 +15,7 @@
     "checkJs": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "types": ["vitest/globals", "@testing-library/jest-dom/vitest"]
+    "types": ["vitest/globals", "@testing-library/jest-dom/vitest", "geojson"]
   },
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
 }
