@@ -9,7 +9,6 @@
   import Notice from './lib/components/Notice.svelte';
   import HowItWorks from './lib/components/HowItWorks.svelte';
   import Features from './lib/components/Features.svelte';
-  import TransitMap from './lib/components/TransitMap.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
   import { appState } from './lib/state/app.svelte';
@@ -20,9 +19,21 @@
   import { DEFAULT_STATE, WEEKDAY_INDEX } from './lib/state/url';
   import type { Stop } from './lib/gtfs/types';
 
+  type TransitMap = typeof import('./lib/components/TransitMap.svelte').default;
+
   feed.load();
 
-  let mapComponent = $state<ReturnType<typeof TransitMap> | null>(null);
+  /**
+   * MapLibre is most of the JavaScript on this page and none of it is needed
+   * to read the first screen, so it is fetched alongside the feed rather than
+   * ahead of it.
+   */
+  let TransitMap = $state.raw<TransitMap | null>(null);
+  void import('./lib/components/TransitMap.svelte').then((module) => {
+    TransitMap = module.default;
+  });
+
+  let mapComponent = $state<ReturnType<TransitMap> | null>(null);
 
   const current = $derived(appState.value);
 
@@ -175,7 +186,7 @@
               {/snippet}
             </Notice>
           </div>
-        {:else if !feed.network}
+        {:else if !feed.network || !TransitMap}
           <div class="overlay loading">
             <Skeleton height="100%" radius="0" />
             <p class="loading-label">Reading the {site.city} feed…</p>
