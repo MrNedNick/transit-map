@@ -22,4 +22,21 @@ npm run dev
 | `npm run lint` | ESLint |
 | `npm test` | Vitest |
 
+## Deploy
+
+The site is static, so it deploys as files. `.github/workflows/deploy.yml`
+lints, type-checks, tests, builds and publishes to GitHub Pages on every push
+to `main`; the demo is at <https://mrnednick.github.io/transit-map/>.
+
+A project page is served from a subdirectory, so the build needs to know it:
+
+```bash
+BASE_PATH=/transit-map/ npm run build
+```
+
+Anywhere else — Netlify, Vercel, an S3 bucket, a folder behind nginx — takes
+`npm run build` and the `dist/` folder as they are, with no environment
+variable and nothing to configure. The GTFS feed and the PMTiles basemap are
+committed to the repository and shipped as part of the build.
+
 A full write-up lives at the end of this file once the app is feature complete.
