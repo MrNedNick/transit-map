@@ -68,8 +68,12 @@
   </div>
 
   <p class="visually-hidden" aria-live="polite">
-    {hits.length}
-    {hits.length === 1 ? 'stop matches' : 'stops match'}
+    <!-- Silent until there is something to report, or every visit opens with
+         a screen reader announcing that nothing matches the empty box. -->
+    {#if query.trim().length >= 2}
+      {hits.length}
+      {hits.length === 1 ? 'stop matches' : 'stops match'}
+    {/if}
   </p>
 
   {#if open && query.trim().length >= 2}

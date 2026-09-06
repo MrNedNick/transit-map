@@ -7,6 +7,8 @@
   import StopCard from './lib/components/StopCard.svelte';
   import Skeleton from './lib/components/Skeleton.svelte';
   import Notice from './lib/components/Notice.svelte';
+  import HowItWorks from './lib/components/HowItWorks.svelte';
+  import Features from './lib/components/Features.svelte';
   import TransitMap from './lib/components/TransitMap.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
@@ -230,6 +232,9 @@
       </div>
     </dl>
   </section>
+
+  <HowItWorks />
+  <Features />
 </main>
 
 <Footer />
