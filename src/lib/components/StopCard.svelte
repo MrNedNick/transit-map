@@ -1,6 +1,7 @@
 <script lang="ts">
   import { formatTime } from '../gtfs/csv';
   import type { StopDetails } from '../gtfs/stop-details';
+  import type { Isochrone } from '../routing/isochrone';
   import { MODE_LABEL } from '../gtfs/types';
   import { savedStops } from '../state/saved.svelte';
   import { DAY_LABEL, DAY_PHRASE, type DayType } from '../state/url';
@@ -8,13 +9,19 @@
 
   let {
     details,
+    isochrone,
     hour,
     day,
+    minutes,
+    onminutes,
     onclose,
   }: {
     details: StopDetails;
+    isochrone: Isochrone | null;
     hour: number;
     day: DayType;
+    minutes: number;
+    onminutes: (minutes: number) => void;
     onclose: () => void;
   } = $props();
 
@@ -46,7 +53,31 @@
     <button type="button" class="save" class:on={saved} onclick={() => savedStops.toggle(stop)}>
       {saved ? 'Saved' : 'Save stop'}
     </button>
+    <label class="budget">
+      <span>Reachable in</span>
+      <select value={minutes} onchange={(e) => onminutes(Number(e.currentTarget.value))}>
+        {#each [10, 15, 20, 30, 45] as value (value)}
+          <option {value}>{value} min</option>
+        {/each}
+      </select>
+    </label>
   </div>
+
+  <section class="reach" aria-labelledby="stop-reach">
+    <h3 id="stop-reach">Where {minutes} minutes gets you</h3>
+    {#if isochrone && isochrone.stopsReached > 1}
+      <p class="figures">
+        <strong>{isochrone.stopsReached.toLocaleString('en')}</strong> stops ·
+        <strong>{isochrone.squareKm.toFixed(1)} km²</strong> shaded on the map
+        <small>computed in {Math.round(isochrone.millis)} ms</small>
+      </p>
+    {:else}
+      <p class="none">
+        Nothing runs from here at {clock} on {DAY_PHRASE[day]}, so there is no area to
+        shade. The walk is all you get.
+      </p>
+    {/if}
+  </section>
 
   <section aria-labelledby="stop-routes">
     <h3 id="stop-routes">Lines calling here</h3>
@@ -183,6 +214,40 @@
     background: var(--accent-soft);
     border-color: var(--accent);
     font-weight: 600;
+  }
+
+  .budget {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+  }
+
+  select {
+    font: inherit;
+    font-size: 12.5px;
+    padding: 4px 6px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .figures {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .figures strong {
+    color: var(--text);
+  }
+
+  .figures small {
+    display: block;
+    font-size: 11.5px;
+    color: var(--text-faint);
+    margin-top: 2px;
   }
 
   h3 {

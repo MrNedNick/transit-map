@@ -24,7 +24,7 @@
     modes: Mode[];
     activeRouteIds?: string[] | null;
     selectedId?: string | null;
-    isochrone?: GeoJSON.FeatureCollection | null;
+    isochrone?: GeoJSON.MultiPolygon | null;
     view: { lon: number; lat: number; zoom: number };
     onselect: (stopId: string | null) => void;
     onviewchange: (view: { lon: number; lat: number; zoom: number }) => void;

@@ -12,6 +12,7 @@
 
   import { activeAt } from './lib/gtfs/active';
   import { stopDetails } from './lib/gtfs/stop-details';
+  import { isochroneFrom } from './lib/routing/isochrone';
   import { DEFAULT_STATE, WEEKDAY_INDEX } from './lib/state/url';
   import type { Stop } from './lib/gtfs/types';
 
@@ -53,6 +54,19 @@
       hour: current.hour,
       weekday: WEEKDAY_INDEX[current.day],
       activeRouteIds: new Set(slice?.routeIds ?? []),
+    });
+  });
+
+  const isochrone = $derived.by(() => {
+    const network = feed.network;
+    const timetable = feed.timetable;
+    const stop = selected;
+    if (!network || !timetable || !stop) return null;
+    return isochroneFrom(network, timetable, stop.id, {
+      hour: current.hour,
+      weekday: WEEKDAY_INDEX[current.day],
+      modes: current.modes,
+      minutes: current.minutes,
     });
   });
 
@@ -110,8 +124,11 @@
         {#if details}
           <StopCard
             {details}
+            {isochrone}
             hour={current.hour}
             day={current.day}
+            minutes={current.minutes}
+            onminutes={(minutes) => appState.update({ minutes })}
             onclose={() => appState.update({ stopId: null })}
           />
         {:else if selected}
@@ -138,6 +155,7 @@
             modes={current.modes}
             activeRouteIds={slice?.routeIds ?? null}
             selectedId={current.stopId}
+            isochrone={isochrone?.area ?? null}
             view={{ lon: current.lon, lat: current.lat, zoom: current.zoom }}
             onselect={(id) => appState.update({ stopId: id })}
             onviewchange={(camera) => appState.setCamera(camera)}
