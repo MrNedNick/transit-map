@@ -5,7 +5,7 @@
 
 <header class="header">
   <div class="page bar">
-    <a class="brand" href="./" aria-label="{site.name}, home">
+    <a class="brand" href="./" aria-label="{site.name} {site.city}, home">
       <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
         <rect width="32" height="32" rx="7" fill="var(--accent)" />
         <path
