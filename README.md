@@ -1,11 +1,15 @@
 # Transit Map
 
-Every stop in a city on one map, with its timetable and the area you can reach
-from it. Pick a stop, choose an hour, and the map shades everywhere the network
-gets you to inside a travel budget — the ride, the wait for it and the walk at
-either end.
+**Where can I get to in 20 minutes from here?**
 
-**[Open the demo](https://mrnednick.github.io/transit-map/)** —
+Pick a stop, choose an hour, and the map shades everywhere the public transport
+network gets you inside a travel budget — the ride, the wait for it and the walk
+at either end. The city, Ostgrad, is invented: its timetable is a generated but
+valid GTFS feed, so the map answers the question the same way it would for a
+real city.
+
+**[Open the demo](https://mrnednick.github.io/transit-map/)** — the first visit
+explains the map and offers the same three examples as one-click buttons:
 [a stop and its 20-minute reach](https://mrnednick.github.io/transit-map/?c=12.4930,49.0090&z=12.30&s=S00427&i=20),
 [three in the morning, when ten routes are left](https://mrnednick.github.io/transit-map/?h=3),
 [metro and suburban rail only](https://mrnednick.github.io/transit-map/?m=metro,rail).
@@ -115,9 +119,9 @@ the build.
 
 ## Tests
 
-`npm test` runs 28 tests over a six-stop feed small enough to check by hand:
+`npm test` runs 30 tests over a six-stop feed small enough to check by hand:
 finding a stop, filtering by mode and hour, reading the card, and the area the
-network opens up. The numbers asserted are arithmetic on that fixture — half a
+network opens up, plus the first-visit explanation and its examples. The numbers asserted are arithmetic on that fixture — half a
 headway plus the ride — rather than whatever the code happened to print.
 
 ## Licence

@@ -11,6 +11,15 @@ function readFromLocation(): AppState {
   return decodeState(location.search);
 }
 
+/**
+ * A visitor who arrived on a link with a view in it was sent there by someone
+ * and needs no introduction. The address bar always carries the camera, so
+ * "a view" means anything other than the default one.
+ */
+export const openedWithView =
+  typeof location !== 'undefined' &&
+  encodeState(decodeState(location.search)) !== encodeState(DEFAULT_STATE);
+
 let current = $state<AppState>(readFromLocation());
 let pending: number | null = null;
 

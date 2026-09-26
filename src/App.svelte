@@ -9,6 +9,7 @@
   import Notice from './lib/components/Notice.svelte';
   import HowItWorks from './lib/components/HowItWorks.svelte';
   import Features from './lib/components/Features.svelte';
+  import Intro from './lib/components/Intro.svelte';
   import { site } from './lib/site';
   import { feed } from './lib/state/network.svelte';
   import { appState } from './lib/state/app.svelte';
@@ -192,6 +193,7 @@
       </aside>
 
       <div class="canvas">
+        <Intro onexample={(example) => appState.update(example.patch)} />
         {#if !feed.network && feed.error}
           <div class="overlay">
             <Notice tone="problem" title="The map data did not load">

@@ -1,3 +1,5 @@
+import { DEFAULT_STATE, type AppState } from './state/url';
+
 /** Everything the shell needs to link out, and the copy of the page, in one place. */
 export const site = {
   name: 'Transit Map',
@@ -70,5 +72,37 @@ export const features: Feature[] = [
       'Camera, modes, hour, day, the open stop and the travel budget all live in the ' +
       'address bar. Send the link and the other person opens exactly your screen.',
     icon: 'M10 14a4 4 0 006 0l3-3a4 4 0 10-6-6l-1 1M14 10a4 4 0 00-6 0l-3 3a4 4 0 106 6l1-1',
+  },
+];
+
+export interface Example {
+  label: string;
+  /** Everything the example depends on, so it means the same from any view. */
+  patch: Partial<AppState>;
+}
+
+const centre = { lon: DEFAULT_STATE.lon, lat: DEFAULT_STATE.lat, zoom: DEFAULT_STATE.zoom };
+
+export const examples: Example[] = [
+  {
+    label: 'Where can I get in 20 minutes from the centre?',
+    patch: {
+      lon: 12.493,
+      lat: 49.009,
+      zoom: 12.3,
+      stopId: 'S00427',
+      minutes: 20,
+      hour: DEFAULT_STATE.hour,
+      day: DEFAULT_STATE.day,
+      modes: [...DEFAULT_STATE.modes],
+    },
+  },
+  {
+    label: 'What still runs at 3 a.m.?',
+    patch: { ...centre, hour: 3, day: 'wd', stopId: null, modes: [...DEFAULT_STATE.modes] },
+  },
+  {
+    label: 'Metro and suburban rail only',
+    patch: { ...centre, modes: ['metro', 'rail'], hour: DEFAULT_STATE.hour, stopId: null },
   },
 ];
