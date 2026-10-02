@@ -1,6 +1,8 @@
 <script lang="ts">
   import { untrack } from 'svelte';
-  import maplibregl, { Map as MapLibreMap, type MapMouseEvent } from 'maplibre-gl';
+  import * as maplibregl from 'maplibre-gl';
+  import { Map as MapLibreMap, type MapMouseEvent } from 'maplibre-gl';
+  import mapWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
   import { Protocol } from 'pmtiles';
   import 'maplibre-gl/dist/maplibre-gl.css';
   import { buildStyle } from '../map/style';
@@ -83,6 +85,8 @@
    * again on every pan.
    */
   $effect(() => {
+    // The map's tile worker ships as its own bundle; tell MapLibre where it lives.
+    maplibregl.setWorkerUrl(mapWorkerUrl);
     registerGlyphProtocol();
     const protocol = new Protocol();
     maplibregl.addProtocol('pmtiles', protocol.tile);
